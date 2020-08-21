@@ -1,5 +1,7 @@
 # BertGAT-for-Spider-Dataset
 
+Chang Shu, Ruitao Yi, Bo Lun 
+
 We use Spider dataset as our main dataset to fulfill the largescale and cross-domain semantic parsing text-to-SQL 
 tasks. For this task, we propose BertGAT, which is a novel approach to the beforementioned task. 
 To build this model, we implement Bidirectional Encoder Representations from Transformers (BERT) 
