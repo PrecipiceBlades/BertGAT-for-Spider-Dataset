@@ -1,0 +1,12 @@
+path prepared
+start trainning col
+start trainning agg
+done training agg
+start trainning root_tem
+done training root_tem
+start trainning des_asc
+done training des_asc
+start trainning having
+done training having
+start trainning andor
+done training andor

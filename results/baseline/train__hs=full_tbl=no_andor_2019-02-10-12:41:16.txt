@@ -1,0 +1,1219 @@
+Loading word embedding from glove/glove.42B.300d.txt
+finished load word embedding
+finished build model
+Using fixed embedding
+start training
+Epoch 1 @ 2019-02-10 19:28:53.354406
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/andor_predictor.py:54: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_q = self.softmax(att_val_q)
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/andor_predictor.py:64: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_h = self.softmax(att_val_h)
+ Loss = 0.5371817757475541
+dev data size 92
+Dev andor acc total acc: 0.652173913043
+Save model...
+Epoch 2 @ 2019-02-10 19:28:55.197362
+ Loss = 0.41729639933177204
+dev data size 92
+Dev andor acc total acc: 0.652173913043
+Epoch 3 @ 2019-02-10 19:28:56.305832
+ Loss = 0.4015283280258374
+dev data size 92
+Dev andor acc total acc: 0.652173913043
+Epoch 4 @ 2019-02-10 19:28:57.478301
+ Loss = 0.3748221908545651
+dev data size 92
+Dev andor acc total acc: 0.652173913043
+Epoch 5 @ 2019-02-10 19:28:58.661414
+ Loss = 0.27707678362607435
+dev data size 92
+Dev andor acc total acc: 0.739130434783
+Save model...
+Epoch 6 @ 2019-02-10 19:29:00.463695
+ Loss = 0.15110794796116536
+dev data size 92
+Dev andor acc total acc: 0.836956521739
+Save model...
+Epoch 7 @ 2019-02-10 19:29:02.169740
+ Loss = 0.09871875225866338
+dev data size 92
+Dev andor acc total acc: 0.891304347826
+Save model...
+Epoch 8 @ 2019-02-10 19:29:03.755146
+ Loss = 0.07744793621095276
+dev data size 92
+Dev andor acc total acc: 0.902173913043
+Save model...
+Epoch 9 @ 2019-02-10 19:29:05.624499
+ Loss = 0.056541832135357586
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Save model...
+Epoch 10 @ 2019-02-10 19:29:07.425792
+ Loss = 0.05284574830739972
+dev data size 92
+Dev andor acc total acc: 0.923913043478
+Epoch 11 @ 2019-02-10 19:29:08.780416
+ Loss = 0.042804594574138315
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 12 @ 2019-02-10 19:29:09.858949
+ Loss = 0.041779104109317435
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 13 @ 2019-02-10 19:29:11.144231
+ Loss = 0.038936460387285515
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 14 @ 2019-02-10 19:29:12.388096
+ Loss = 0.03657798374063554
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Save model...
+Epoch 15 @ 2019-02-10 19:29:14.007317
+ Loss = 0.030010245595170883
+dev data size 92
+Dev andor acc total acc: 0.923913043478
+Epoch 16 @ 2019-02-10 19:29:15.459640
+ Loss = 0.027403317168735952
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 17 @ 2019-02-10 19:29:16.826865
+ Loss = 0.0249360864512606
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 18 @ 2019-02-10 19:29:18.182057
+ Loss = 0.021937067161257724
+dev data size 92
+Dev andor acc total acc: 0.923913043478
+Epoch 19 @ 2019-02-10 19:29:19.650736
+ Loss = 0.022046375921073624
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Save model...
+Epoch 20 @ 2019-02-10 19:29:21.277636
+ Loss = 0.024632912199914325
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 21 @ 2019-02-10 19:29:22.592830
+ Loss = 0.01727541756984241
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 22 @ 2019-02-10 19:29:23.771029
+ Loss = 0.013634203895763204
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 23 @ 2019-02-10 19:29:24.912436
+ Loss = 0.012828630456290024
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 24 @ 2019-02-10 19:29:26.286742
+ Loss = 0.01039697899424639
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 25 @ 2019-02-10 19:29:27.472542
+ Loss = 0.008975406559412091
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 26 @ 2019-02-10 19:29:28.738040
+ Loss = 0.009555111220820792
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 27 @ 2019-02-10 19:29:29.980582
+ Loss = 0.006495560583089791
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 28 @ 2019-02-10 19:29:31.151547
+ Loss = 0.013716011803557755
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Epoch 29 @ 2019-02-10 19:29:32.373122
+ Loss = 0.012770975129699253
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Epoch 30 @ 2019-02-10 19:29:33.912093
+ Loss = 0.004847799994832434
+dev data size 92
+Dev andor acc total acc: 0.934782608696
+Epoch 31 @ 2019-02-10 19:29:35.161624
+ Loss = 0.005576780518629827
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 32 @ 2019-02-10 19:29:36.301976
+ Loss = 0.002152197721531066
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Epoch 33 @ 2019-02-10 19:29:37.492111
+ Loss = 0.0028406211803318595
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Epoch 34 @ 2019-02-10 19:29:38.596962
+ Loss = 0.006925725954602805
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Save model...
+Epoch 35 @ 2019-02-10 19:29:40.547125
+ Loss = 0.0020764222806707363
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 36 @ 2019-02-10 19:29:41.763033
+ Loss = 0.0030035127941678893
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 37 @ 2019-02-10 19:29:42.887003
+ Loss = 0.0014034412132494132
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 38 @ 2019-02-10 19:29:44.147700
+ Loss = 0.0017911090173180018
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 39 @ 2019-02-10 19:29:45.592911
+ Loss = 0.0011069533857903861
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 40 @ 2019-02-10 19:29:47.099614
+ Loss = 0.0008583398653687352
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 41 @ 2019-02-10 19:29:48.357329
+ Loss = 0.000401560889378937
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 42 @ 2019-02-10 19:29:49.590180
+ Loss = 0.0004495908268111696
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 43 @ 2019-02-10 19:29:50.739218
+ Loss = 0.00040916032909563284
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 44 @ 2019-02-10 19:29:52.005087
+ Loss = 0.000340374479180067
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 45 @ 2019-02-10 19:29:53.199276
+ Loss = 0.00031857093462322203
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 46 @ 2019-02-10 19:29:54.609377
+ Loss = 0.0002462328393355834
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 47 @ 2019-02-10 19:29:56.106026
+ Loss = 0.00019490492439156511
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 48 @ 2019-02-10 19:29:57.432138
+ Loss = 0.00018258901139302214
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 49 @ 2019-02-10 19:29:58.609111
+ Loss = 0.0001677364394267874
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 50 @ 2019-02-10 19:30:00.107431
+ Loss = 0.00017611226334174996
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 51 @ 2019-02-10 19:30:01.473711
+ Loss = 0.00014502824541117379
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 52 @ 2019-02-10 19:30:02.670948
+ Loss = 0.00014107100192184288
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 53 @ 2019-02-10 19:30:04.002266
+ Loss = 0.00012979618905867933
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 54 @ 2019-02-10 19:30:05.236704
+ Loss = 0.00011503670318358305
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 55 @ 2019-02-10 19:30:06.478305
+ Loss = 0.0001060483752531486
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 56 @ 2019-02-10 19:30:07.852421
+ Loss = 0.0001072071171546594
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 57 @ 2019-02-10 19:30:08.999310
+ Loss = 9.81638429867311e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 58 @ 2019-02-10 19:30:10.281266
+ Loss = 9.129254638383403e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 59 @ 2019-02-10 19:30:11.693002
+ Loss = 9.163145257111894e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 60 @ 2019-02-10 19:30:13.077047
+ Loss = 8.750606227166847e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 61 @ 2019-02-10 19:30:14.292073
+ Loss = 8.221923042668548e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 62 @ 2019-02-10 19:30:15.651493
+ Loss = 6.972515645454248e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 63 @ 2019-02-10 19:30:16.882147
+ Loss = 9.081100701910414e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 64 @ 2019-02-10 19:30:18.041820
+ Loss = 7.701381615411023e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 65 @ 2019-02-10 19:30:19.170714
+ Loss = 7.281205878804598e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 66 @ 2019-02-10 19:30:20.482503
+ Loss = 6.99853444450441e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 67 @ 2019-02-10 19:30:21.853542
+ Loss = 7.335733897549958e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 68 @ 2019-02-10 19:30:23.083374
+ Loss = 7.815374954441575e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 69 @ 2019-02-10 19:30:24.268504
+ Loss = 5.643205826308162e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 70 @ 2019-02-10 19:30:25.542409
+ Loss = 5.765915614344094e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 71 @ 2019-02-10 19:30:26.691686
+ Loss = 5.3626068180560974e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 72 @ 2019-02-10 19:30:27.793958
+ Loss = 5.3553793715207464e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 73 @ 2019-02-10 19:30:28.974968
+ Loss = 5.215741661978461e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 74 @ 2019-02-10 19:30:30.388867
+ Loss = 4.1935024160625904e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 75 @ 2019-02-10 19:30:31.820520
+ Loss = 4.705048721749931e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 76 @ 2019-02-10 19:30:33.298734
+ Loss = 4.3820080911546184e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 77 @ 2019-02-10 19:30:34.430130
+ Loss = 4.3777238719833585e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 78 @ 2019-02-10 19:30:35.633259
+ Loss = 4.8498240065549554e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 79 @ 2019-02-10 19:30:36.955600
+ Loss = 4.269103223690593e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 80 @ 2019-02-10 19:30:38.329508
+ Loss = 4.8744321479653634e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 81 @ 2019-02-10 19:30:39.483941
+ Loss = 3.738678485489715e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 82 @ 2019-02-10 19:30:40.738464
+ Loss = 3.9894620896778986e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 83 @ 2019-02-10 19:30:42.168699
+ Loss = 3.340054464089938e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 84 @ 2019-02-10 19:30:43.649960
+ Loss = 3.604857568131557e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 85 @ 2019-02-10 19:30:45.064581
+ Loss = 2.928891261592185e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 86 @ 2019-02-10 19:30:46.452849
+ Loss = 3.307121699869631e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 87 @ 2019-02-10 19:30:47.648612
+ Loss = 3.160448124698738e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 88 @ 2019-02-10 19:30:48.959223
+ Loss = 4.914435615181715e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 89 @ 2019-02-10 19:30:50.333931
+ Loss = 3.102367337831123e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 90 @ 2019-02-10 19:30:51.530043
+ Loss = 3.42039229468512e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 91 @ 2019-02-10 19:30:52.697765
+ Loss = 3.220287878106375e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 92 @ 2019-02-10 19:30:54.019138
+ Loss = 2.53509134149744e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 93 @ 2019-02-10 19:30:55.479913
+ Loss = 2.6198353010232403e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 94 @ 2019-02-10 19:30:56.760904
+ Loss = 3.124554720841596e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 95 @ 2019-02-10 19:30:58.057758
+ Loss = 2.2120855431540712e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 96 @ 2019-02-10 19:30:59.290656
+ Loss = 2.286920067613997e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 97 @ 2019-02-10 19:31:00.381102
+ Loss = 2.50254171756569e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 98 @ 2019-02-10 19:31:01.633095
+ Loss = 2.3728308666559672e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 99 @ 2019-02-10 19:31:02.947844
+ Loss = 1.9321657579021945e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 100 @ 2019-02-10 19:31:04.160041
+ Loss = 2.019278230838198e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 101 @ 2019-02-10 19:31:05.425149
+ Loss = 2.1909953384111952e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 102 @ 2019-02-10 19:31:06.500170
+ Loss = 1.7941128699167805e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 103 @ 2019-02-10 19:31:07.828216
+ Loss = 2.6191038489611035e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 104 @ 2019-02-10 19:31:09.155893
+ Loss = 1.9235973208551573e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 105 @ 2019-02-10 19:31:10.391276
+ Loss = 2.0937470298068396e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 106 @ 2019-02-10 19:31:11.826190
+ Loss = 1.9366415511706128e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 107 @ 2019-02-10 19:31:13.235041
+ Loss = 2.110152457568793e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 108 @ 2019-02-10 19:31:14.445671
+ Loss = 2.009386210104551e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 109 @ 2019-02-10 19:31:15.713750
+ Loss = 1.8560599013556705e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 110 @ 2019-02-10 19:31:17.201095
+ Loss = 1.7582542970493174e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 111 @ 2019-02-10 19:31:18.476145
+ Loss = 1.4733885050181054e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 112 @ 2019-02-10 19:31:19.619135
+ Loss = 1.6928241567436957e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 113 @ 2019-02-10 19:31:20.818649
+ Loss = 1.6923713558044802e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 114 @ 2019-02-10 19:31:21.906155
+ Loss = 2.248954215187276e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 115 @ 2019-02-10 19:31:23.103947
+ Loss = 1.8046492755523945e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 116 @ 2019-02-10 19:31:24.388424
+ Loss = 1.882392181438865e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 117 @ 2019-02-10 19:31:25.621094
+ Loss = 1.8207760425749655e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 118 @ 2019-02-10 19:31:26.966890
+ Loss = 1.4549977069247737e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 119 @ 2019-02-10 19:31:28.080732
+ Loss = 1.3146111377810997e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 120 @ 2019-02-10 19:31:29.544898
+ Loss = 1.590734332634951e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 121 @ 2019-02-10 19:31:30.984411
+ Loss = 1.2017062671614136e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 122 @ 2019-02-10 19:31:32.360987
+ Loss = 1.199076522358358e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 123 @ 2019-02-10 19:31:33.714329
+ Loss = 1.2725526352063078e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 124 @ 2019-02-10 19:31:35.074116
+ Loss = 1.2668403420118866e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 125 @ 2019-02-10 19:31:36.485090
+ Loss = 1.327585703592668e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 126 @ 2019-02-10 19:31:37.808836
+ Loss = 1.1848306202083534e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 127 @ 2019-02-10 19:31:39.030049
+ Loss = 1.1736498511624842e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 128 @ 2019-02-10 19:31:40.432286
+ Loss = 1.0839424663729358e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 129 @ 2019-02-10 19:31:41.680085
+ Loss = 1.0992855462922748e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 130 @ 2019-02-10 19:31:42.886209
+ Loss = 1.0142629386497362e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 131 @ 2019-02-10 19:31:44.373120
+ Loss = 1.301497242895322e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 132 @ 2019-02-10 19:31:45.829266
+ Loss = 1.0083242434078766e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 133 @ 2019-02-10 19:31:47.289948
+ Loss = 9.412918751604394e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 134 @ 2019-02-10 19:31:48.680603
+ Loss = 9.475092197729975e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 135 @ 2019-02-10 19:31:50.046681
+ Loss = 1.1554680392065325e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 136 @ 2019-02-10 19:31:51.367911
+ Loss = 1.0688432035142213e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 137 @ 2019-02-10 19:31:52.675559
+ Loss = 8.300763137352558e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 138 @ 2019-02-10 19:31:53.900730
+ Loss = 9.937822776379895e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 139 @ 2019-02-10 19:31:55.180918
+ Loss = 7.952104267808752e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 140 @ 2019-02-10 19:31:56.417571
+ Loss = 1.0933990981079357e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 141 @ 2019-02-10 19:31:57.780543
+ Loss = 9.543535221665639e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 142 @ 2019-02-10 19:31:59.142518
+ Loss = 9.25548238535919e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 143 @ 2019-02-10 19:32:00.443149
+ Loss = 1.0699752122400175e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 144 @ 2019-02-10 19:32:01.730678
+ Loss = 9.023681710822376e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 145 @ 2019-02-10 19:32:02.903147
+ Loss = 9.179724838892154e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 146 @ 2019-02-10 19:32:04.336969
+ Loss = 1.106652314461119e-05
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 147 @ 2019-02-10 19:32:05.562635
+ Loss = 7.136360931621607e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 148 @ 2019-02-10 19:32:06.928882
+ Loss = 8.129916803624669e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 149 @ 2019-02-10 19:32:08.185444
+ Loss = 8.899857303346893e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 150 @ 2019-02-10 19:32:09.376448
+ Loss = 7.692264588449576e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 151 @ 2019-02-10 19:32:10.870490
+ Loss = 7.984845459102816e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 152 @ 2019-02-10 19:32:12.159460
+ Loss = 6.839774493127636e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 153 @ 2019-02-10 19:32:13.665343
+ Loss = 6.640018382160628e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 154 @ 2019-02-10 19:32:14.946554
+ Loss = 6.871122438979951e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 155 @ 2019-02-10 19:32:16.403737
+ Loss = 9.535349940419723e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 156 @ 2019-02-10 19:32:17.568646
+ Loss = 6.425981542920297e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 157 @ 2019-02-10 19:32:18.848062
+ Loss = 7.191394003271585e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 158 @ 2019-02-10 19:32:20.155769
+ Loss = 7.867290645838549e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 159 @ 2019-02-10 19:32:21.644717
+ Loss = 5.8139998857484985e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 160 @ 2019-02-10 19:32:22.786151
+ Loss = 6.129395100523273e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 161 @ 2019-02-10 19:32:23.945211
+ Loss = 5.75757357401309e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 162 @ 2019-02-10 19:32:25.154634
+ Loss = 6.200798764643861e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 163 @ 2019-02-10 19:32:26.495948
+ Loss = 5.200276678262301e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 164 @ 2019-02-10 19:32:28.053257
+ Loss = 6.269938410283115e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 165 @ 2019-02-10 19:32:29.625536
+ Loss = 5.550677100362685e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 166 @ 2019-02-10 19:32:31.121188
+ Loss = 5.392892417494148e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 167 @ 2019-02-10 19:32:32.475959
+ Loss = 6.577496647231357e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 168 @ 2019-02-10 19:32:33.779246
+ Loss = 4.400729785078254e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 169 @ 2019-02-10 19:32:35.117270
+ Loss = 4.6781591468616114e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 170 @ 2019-02-10 19:32:36.464210
+ Loss = 5.438869412395304e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 171 @ 2019-02-10 19:32:38.034664
+ Loss = 5.145417762806375e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 172 @ 2019-02-10 19:32:39.350094
+ Loss = 6.003654989113695e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 173 @ 2019-02-10 19:32:40.586519
+ Loss = 5.361544468569217e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 174 @ 2019-02-10 19:32:42.006089
+ Loss = 4.9843241294824255e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 175 @ 2019-02-10 19:32:43.225089
+ Loss = 5.336988575088288e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 176 @ 2019-02-10 19:32:44.533637
+ Loss = 4.8826174726597475e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 177 @ 2019-02-10 19:32:45.782217
+ Loss = 4.654125718641089e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 178 @ 2019-02-10 19:32:47.020394
+ Loss = 4.523857567362312e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 179 @ 2019-02-10 19:32:48.475134
+ Loss = 4.5909073514616775e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 180 @ 2019-02-10 19:32:49.884238
+ Loss = 4.713338513952151e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 181 @ 2019-02-10 19:32:51.345285
+ Loss = 4.331241826967853e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 182 @ 2019-02-10 19:32:52.583270
+ Loss = 5.289444180170684e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 183 @ 2019-02-10 19:32:54.030914
+ Loss = 4.455588698707219e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 184 @ 2019-02-10 19:32:55.239212
+ Loss = 4.0123635130590695e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 185 @ 2019-02-10 19:32:56.576266
+ Loss = 4.448100021102886e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 186 @ 2019-02-10 19:32:58.105744
+ Loss = 4.09891868397345e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 187 @ 2019-02-10 19:32:59.188065
+ Loss = 3.6102389664008506e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 188 @ 2019-02-10 19:33:00.407211
+ Loss = 3.5820258147683754e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 189 @ 2019-02-10 19:33:01.619872
+ Loss = 3.998779391209294e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 190 @ 2019-02-10 19:33:02.870567
+ Loss = 3.885752621592714e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 191 @ 2019-02-10 19:33:04.316927
+ Loss = 4.179204267195544e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 192 @ 2019-02-10 19:33:05.740768
+ Loss = 3.796062653593487e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 193 @ 2019-02-10 19:33:07.280343
+ Loss = 3.0963067335191673e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 194 @ 2019-02-10 19:33:08.759043
+ Loss = 4.2166476505252395e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 195 @ 2019-02-10 19:33:10.253911
+ Loss = 3.8126074020920616e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 196 @ 2019-02-10 19:33:11.725425
+ Loss = 3.3364668665060073e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 197 @ 2019-02-10 19:33:13.028483
+ Loss = 3.863460744600071e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 198 @ 2019-02-10 19:33:14.310362
+ Loss = 3.502959313309664e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 199 @ 2019-02-10 19:33:15.613231
+ Loss = 3.027863707881107e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 200 @ 2019-02-10 19:33:16.924179
+ Loss = 3.7547878496068727e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 201 @ 2019-02-10 19:33:18.229499
+ Loss = 2.9397411361406017e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 202 @ 2019-02-10 19:33:19.548373
+ Loss = 3.1847776164644033e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 203 @ 2019-02-10 19:33:21.033361
+ Loss = 3.2539172622489837e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 204 @ 2019-02-10 19:33:22.384980
+ Loss = 3.426156838325245e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 205 @ 2019-02-10 19:33:23.612376
+ Loss = 3.4888527350124958e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 206 @ 2019-02-10 19:33:24.721407
+ Loss = 3.7744673976400836e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 207 @ 2019-02-10 19:33:26.005522
+ Loss = 2.7570522467594443e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 208 @ 2019-02-10 19:33:27.567033
+ Loss = 3.001043795129929e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 209 @ 2019-02-10 19:33:28.963732
+ Loss = 2.9571566641769305e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 210 @ 2019-02-10 19:33:30.353516
+ Loss = 3.0377905581677767e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 211 @ 2019-02-10 19:33:31.782250
+ Loss = 2.31173719384139e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 212 @ 2019-02-10 19:33:33.100992
+ Loss = 2.433297578641832e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 213 @ 2019-02-10 19:33:34.334136
+ Loss = 2.591778885788313e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 214 @ 2019-02-10 19:33:35.554880
+ Loss = 2.4782296430221735e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 215 @ 2019-02-10 19:33:36.747973
+ Loss = 2.8772193883187946e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 216 @ 2019-02-10 19:33:38.167672
+ Loss = 2.77812503608222e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 217 @ 2019-02-10 19:33:39.220082
+ Loss = 2.5726218050916015e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 218 @ 2019-02-10 19:33:40.707228
+ Loss = 2.7208279500200495e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 219 @ 2019-02-10 19:33:42.154145
+ Loss = 2.9078707192771038e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 220 @ 2019-02-10 19:33:43.490290
+ Loss = 2.7333671286433238e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 221 @ 2019-02-10 19:33:44.705292
+ Loss = 2.6927889485194353e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 222 @ 2019-02-10 19:33:45.942778
+ Loss = 2.451758039980939e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 223 @ 2019-02-10 19:33:47.283109
+ Loss = 2.541273854422752e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 224 @ 2019-02-10 19:33:48.363098
+ Loss = 2.312956282092564e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 225 @ 2019-02-10 19:33:49.536000
+ Loss = 2.7520017439550633e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 226 @ 2019-02-10 19:33:50.852116
+ Loss = 3.2539172615223514e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 227 @ 2019-02-10 19:33:52.079452
+ Loss = 2.0125384226094987e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 228 @ 2019-02-10 19:33:53.440179
+ Loss = 2.3420402084670196e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 229 @ 2019-02-10 19:33:55.017900
+ Loss = 2.1473346054531027e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 230 @ 2019-02-10 19:33:56.103110
+ Loss = 2.075930944239044e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 231 @ 2019-02-10 19:33:57.345357
+ Loss = 2.232670696929322e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 232 @ 2019-02-10 19:33:58.421139
+ Loss = 2.4766622451648607e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 233 @ 2019-02-10 19:33:59.716399
+ Loss = 2.1081496708124856e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 234 @ 2019-02-10 19:34:00.951214
+ Loss = 1.9104834305201748e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 235 @ 2019-02-10 19:34:02.380578
+ Loss = 1.936084254563439e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 236 @ 2019-02-10 19:34:03.814303
+ Loss = 2.28369819400165e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 237 @ 2019-02-10 19:34:05.189780
+ Loss = 2.03378536642393e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 238 @ 2019-02-10 19:34:06.388982
+ Loss = 2.0802848275820157e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 239 @ 2019-02-10 19:34:07.753412
+ Loss = 2.1368852922727715e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 240 @ 2019-02-10 19:34:08.908176
+ Loss = 1.978752297753145e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 241 @ 2019-02-10 19:34:10.153884
+ Loss = 1.7579234018958193e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 242 @ 2019-02-10 19:34:11.445214
+ Loss = 1.8342034149727219e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 243 @ 2019-02-10 19:34:12.776125
+ Loss = 1.8516189423654622e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 244 @ 2019-02-10 19:34:14.006104
+ Loss = 1.96830298134449e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 245 @ 2019-02-10 19:34:15.301950
+ Loss = 1.6722390007200363e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 246 @ 2019-02-10 19:34:16.542345
+ Loss = 1.7412044952101438e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 247 @ 2019-02-10 19:34:17.657427
+ Loss = 2.035178609249803e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 248 @ 2019-02-10 19:34:18.942207
+ Loss = 1.583419809954101e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 249 @ 2019-02-10 19:34:20.339216
+ Loss = 1.8192260606152542e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 250 @ 2019-02-10 19:34:21.677185
+ Loss = 1.8958543840872114e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 251 @ 2019-02-10 19:34:22.973859
+ Loss = 1.4266800584160542e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 252 @ 2019-02-10 19:34:24.517011
+ Loss = 1.6720648488442574e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 253 @ 2019-02-10 19:34:25.853939
+ Loss = 1.7824792957296838e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 254 @ 2019-02-10 19:34:27.163343
+ Loss = 1.7187384644109553e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 255 @ 2019-02-10 19:34:28.391883
+ Loss = 1.4939039967631338e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 256 @ 2019-02-10 19:34:29.643402
+ Loss = 1.718912618072174e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 257 @ 2019-02-10 19:34:30.985844
+ Loss = 1.4002084549596012e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 258 @ 2019-02-10 19:34:32.109791
+ Loss = 1.5188082019211042e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 259 @ 2019-02-10 19:34:33.576459
+ Loss = 1.6036218288116473e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 260 @ 2019-02-10 19:34:34.985427
+ Loss = 1.2483450510906914e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 261 @ 2019-02-10 19:34:36.358867
+ Loss = 1.6974915193923902e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 262 @ 2019-02-10 19:34:37.782636
+ Loss = 1.361197672859113e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 263 @ 2019-02-10 19:34:39.319061
+ Loss = 1.3813996863188183e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 264 @ 2019-02-10 19:34:40.810452
+ Loss = 1.322535200681368e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 265 @ 2019-02-10 19:34:42.192155
+ Loss = 1.7405078739788653e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 266 @ 2019-02-10 19:34:43.538103
+ Loss = 1.2605359208967418e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 267 @ 2019-02-10 19:34:44.924423
+ Loss = 1.310344331067356e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 268 @ 2019-02-10 19:34:46.291684
+ Loss = 1.1734582804659652e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 269 @ 2019-02-10 19:34:47.461124
+ Loss = 1.9966902915792845e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 270 @ 2019-02-10 19:34:48.703525
+ Loss = 1.1344474975454203e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 271 @ 2019-02-10 19:34:49.842031
+ Loss = 1.2187386554282093e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 272 @ 2019-02-10 19:34:51.330656
+ Loss = 1.3162656105315083e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 273 @ 2019-02-10 19:34:52.441066
+ Loss = 1.5503303073930232e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 274 @ 2019-02-10 19:34:53.746946
+ Loss = 1.144896813476574e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 275 @ 2019-02-10 19:34:54.907148
+ Loss = 1.4440955864523833e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 276 @ 2019-02-10 19:34:56.134714
+ Loss = 1.015325285603783e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 277 @ 2019-02-10 19:34:57.697277
+ Loss = 1.196446778435566e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 278 @ 2019-02-10 19:34:59.084874
+ Loss = 1.1769413863057534e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 279 @ 2019-02-10 19:35:00.429812
+ Loss = 1.0811559816595835e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 280 @ 2019-02-10 19:35:01.573531
+ Loss = 9.965165154474523e-07
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 281 @ 2019-02-10 19:35:02.841114
+ Loss = 1.1097174477977767e-06
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 282 @ 2019-02-10 19:35:04.127208
+ Loss = 0.0551087729594758
+dev data size 92
+Dev andor acc total acc: 0.945652173913
+Epoch 283 @ 2019-02-10 19:35:05.248487
+ Loss = 0.05459193120225162
+dev data size 92
+Dev andor acc total acc: 0.95652173913
+Epoch 284 @ 2019-02-10 19:35:06.648241
+ Loss = 0.012689007180855168
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Save model...
+Epoch 285 @ 2019-02-10 19:35:08.690745
+ Loss = 0.008775677854417014
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 286 @ 2019-02-10 19:35:09.988552
+ Loss = 0.004135125870438847
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 287 @ 2019-02-10 19:35:11.216278
+ Loss = 0.0018842593870323676
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 288 @ 2019-02-10 19:35:12.514554
+ Loss = 0.001144254181615347
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 289 @ 2019-02-10 19:35:13.768960
+ Loss = 0.0008098785244300043
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 290 @ 2019-02-10 19:35:15.052948
+ Loss = 0.0005243681832961603
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 291 @ 2019-02-10 19:35:16.144345
+ Loss = 0.0003902363548632861
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 292 @ 2019-02-10 19:35:17.532961
+ Loss = 0.0003163054357090634
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 293 @ 2019-02-10 19:35:18.859855
+ Loss = 0.00029297184996399415
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 294 @ 2019-02-10 19:35:20.162950
+ Loss = 0.0002507360595986118
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 295 @ 2019-02-10 19:35:21.297074
+ Loss = 0.00021566101203201825
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 296 @ 2019-02-10 19:35:22.607067
+ Loss = 0.0001908085309649315
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 297 @ 2019-02-10 19:35:23.948162
+ Loss = 0.00018013977847184333
+dev data size 92
+Dev andor acc total acc: 0.978260869565
+Epoch 298 @ 2019-02-10 19:35:25.166629
+ Loss = 0.00017138995599087363
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 299 @ 2019-02-10 19:35:26.429997
+ Loss = 0.00013935757520092175
+dev data size 92
+Dev andor acc total acc: 0.967391304348
+Epoch 300 @ 2019-02-10 19:35:27.716061
+ Loss = 0.0001299737403811727
+dev data size 92
+Dev andor acc total acc: 0.967391304348

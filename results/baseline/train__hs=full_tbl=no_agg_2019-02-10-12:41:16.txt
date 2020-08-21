@@ -1,0 +1,1231 @@
+Loading word embedding from glove/glove.42B.300d.txt
+finished load word embedding
+finished build model
+Using fixed embedding
+start training
+Epoch 1 @ 2019-02-10 12:44:50.502824
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/agg_predictor.py:73: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_qc_num = self.softmax(att_val_qc_num)
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/agg_predictor.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_hc_num = self.softmax(att_val_hc_num)
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/agg_predictor.py:91: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_qc = self.softmax(att_val_qc)
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/agg_predictor.py:99: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_hc = self.softmax(att_val_hc)
+ Loss = 0.8244281817245986
+dev data size 2238
+Dev agg acc number predict acc:0.922252010724 partial acc: 0.981680071492 total acc: 0.903932082216
+Save model...
+Epoch 2 @ 2019-02-10 12:45:44.807900
+ Loss = 0.3426250363619391
+dev data size 2238
+Dev agg acc number predict acc:0.948614834674 partial acc: 0.970062555853 total acc: 0.918677390527
+Save model...
+Epoch 3 @ 2019-02-10 12:46:36.626509
+ Loss = 0.2334784114720298
+dev data size 2238
+Dev agg acc number predict acc:0.954870420018 partial acc: 0.984807864164 total acc: 0.939678284182
+Save model...
+Epoch 4 @ 2019-02-10 12:47:28.929807
+ Loss = 0.18428101462344001
+dev data size 2238
+Dev agg acc number predict acc:0.966934763181 partial acc: 0.975871313673 total acc: 0.942806076854
+Save model...
+Epoch 5 @ 2019-02-10 12:48:19.881556
+ Loss = 0.15323578912205119
+dev data size 2238
+Dev agg acc number predict acc:0.971403038427 partial acc: 0.985254691689 total acc: 0.956657730116
+Save model...
+Epoch 6 @ 2019-02-10 12:49:13.740695
+ Loss = 0.13794888241151765
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.988382484361 total acc: 0.96291331546
+Save model...
+Epoch 7 @ 2019-02-10 12:50:05.422954
+ Loss = 0.11234971031467067
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.990169794459 total acc: 0.964253798034
+Save model...
+Epoch 8 @ 2019-02-10 12:50:57.821144
+ Loss = 0.09969037881021205
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.991957104558 total acc: 0.964700625559
+Save model...
+Epoch 9 @ 2019-02-10 12:51:47.792453
+ Loss = 0.09081639088053223
+dev data size 2238
+Dev agg acc number predict acc:0.970062555853 partial acc: 0.991063449508 total acc: 0.961126005362
+Epoch 10 @ 2019-02-10 12:52:39.467167
+ Loss = 0.08134672022106644
+dev data size 2238
+Dev agg acc number predict acc:0.972296693476 partial acc: 0.98927613941 total acc: 0.961572832887
+Epoch 11 @ 2019-02-10 12:53:30.231128
+ Loss = 0.07696767426530406
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.98927613941 total acc: 0.967828418231
+Save model...
+Epoch 12 @ 2019-02-10 12:54:21.738324
+ Loss = 0.07153095573812815
+dev data size 2238
+Dev agg acc number predict acc:0.970062555853 partial acc: 0.991957104558 total acc: 0.962019660411
+Epoch 13 @ 2019-02-10 12:55:11.845126
+ Loss = 0.058702753393094304
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.986148346738 total acc: 0.959338695264
+Epoch 14 @ 2019-02-10 12:56:02.491460
+ Loss = 0.05750894413282523
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.989722966935 total acc: 0.963360142985
+Epoch 15 @ 2019-02-10 12:56:53.590973
+ Loss = 0.05422490608414429
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.989722966935 total acc: 0.963806970509
+Epoch 16 @ 2019-02-10 12:57:45.432692
+ Loss = 0.04632422370686708
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.98927613941 total acc: 0.96291331546
+Epoch 17 @ 2019-02-10 12:58:36.129515
+ Loss = 0.03968570403764118
+dev data size 2238
+Dev agg acc number predict acc:0.970062555853 partial acc: 0.985254691689 total acc: 0.955317247542
+Epoch 18 @ 2019-02-10 12:59:26.278082
+ Loss = 0.03553360482489907
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.989722966935 total acc: 0.966041108132
+Epoch 19 @ 2019-02-10 13:00:16.908274
+ Loss = 0.03611159484337942
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.990169794459 total acc: 0.963806970509
+Epoch 20 @ 2019-02-10 13:01:07.277883
+ Loss = 0.033259182535736134
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.98927613941 total acc: 0.96291331546
+Epoch 21 @ 2019-02-10 13:01:58.074787
+ Loss = 0.031039615995156044
+dev data size 2238
+Dev agg acc number predict acc:0.966041108132 partial acc: 0.986148346738 total acc: 0.95218945487
+Epoch 22 @ 2019-02-10 13:02:48.203957
+ Loss = 0.028091857547036005
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.989722966935 total acc: 0.964700625559
+Epoch 23 @ 2019-02-10 13:03:38.456799
+ Loss = 0.023648877256815727
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.98927613941 total acc: 0.965594280608
+Epoch 24 @ 2019-02-10 13:04:29.324303
+ Loss = 0.028315368670793623
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.990616621984 total acc: 0.964700625559
+Epoch 25 @ 2019-02-10 13:05:19.088005
+ Loss = 0.017714923687221933
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.990616621984 total acc: 0.965147453083
+Epoch 26 @ 2019-02-10 13:06:09.945997
+ Loss = 0.017024043024038787
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.990616621984 total acc: 0.967828418231
+Epoch 27 @ 2019-02-10 13:07:03.299510
+ Loss = 0.018787353796056883
+dev data size 2238
+Dev agg acc number predict acc:0.972296693476 partial acc: 0.991063449508 total acc: 0.963360142985
+Epoch 28 @ 2019-02-10 13:07:53.476269
+ Loss = 0.024404157366051452
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.98927613941 total acc: 0.964253798034
+Epoch 29 @ 2019-02-10 13:08:43.451255
+ Loss = 0.01804904892673387
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.989722966935 total acc: 0.962466487936
+Epoch 30 @ 2019-02-10 13:09:34.515830
+ Loss = 0.015598676008885603
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.991063449508 total acc: 0.964700625559
+Epoch 31 @ 2019-02-10 13:10:25.400933
+ Loss = 0.010949088852161226
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991510277033 total acc: 0.967381590706
+Epoch 32 @ 2019-02-10 13:11:16.122702
+ Loss = 0.013403412174458267
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.990616621984 total acc: 0.965594280608
+Epoch 33 @ 2019-02-10 13:12:06.282983
+ Loss = 0.01067193946994528
+dev data size 2238
+Dev agg acc number predict acc:0.966041108132 partial acc: 0.991510277033 total acc: 0.957551385165
+Epoch 34 @ 2019-02-10 13:12:57.310800
+ Loss = 0.014563775159541291
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.993297587131 total acc: 0.966934763181
+Epoch 35 @ 2019-02-10 13:13:47.588825
+ Loss = 0.015417447067340983
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Save model...
+Epoch 36 @ 2019-02-10 13:14:39.308549
+ Loss = 0.015915685716828762
+dev data size 2238
+Dev agg acc number predict acc:0.96872207328 partial acc: 0.992403932082 total acc: 0.961126005362
+Epoch 37 @ 2019-02-10 13:15:29.498336
+ Loss = 0.011603964217653624
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991063449508 total acc: 0.966487935657
+Epoch 38 @ 2019-02-10 13:16:20.274520
+ Loss = 0.00912250504432086
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991063449508 total acc: 0.966934763181
+Epoch 39 @ 2019-02-10 13:17:10.895301
+ Loss = 0.007737363532503175
+dev data size 2238
+Dev agg acc number predict acc:0.971849865952 partial acc: 0.987935656836 total acc: 0.959785522788
+Epoch 40 @ 2019-02-10 13:18:01.787757
+ Loss = 0.011236438163212297
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992850759607 total acc: 0.967381590706
+Epoch 41 @ 2019-02-10 13:18:52.321477
+ Loss = 0.007847380047011169
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Save model...
+Epoch 42 @ 2019-02-10 13:19:43.458770
+ Loss = 0.007436586068502761
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993744414656 total acc: 0.968275245755
+Epoch 43 @ 2019-02-10 13:20:34.161701
+ Loss = 0.005623437681996529
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991510277033 total acc: 0.967828418231
+Epoch 44 @ 2019-02-10 13:21:25.932784
+ Loss = 0.010105061312418397
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 45 @ 2019-02-10 13:22:17.023750
+ Loss = 0.009695909183861564
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992403932082 total acc: 0.968275245755
+Epoch 46 @ 2019-02-10 13:23:08.506657
+ Loss = 0.009370771435771467
+dev data size 2238
+Dev agg acc number predict acc:0.970509383378 partial acc: 0.992850759607 total acc: 0.963360142985
+Epoch 47 @ 2019-02-10 13:24:00.167244
+ Loss = 0.0050033901236193725
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Epoch 48 @ 2019-02-10 13:24:50.264106
+ Loss = 0.007830697000487394
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.989722966935 total acc: 0.966041108132
+Epoch 49 @ 2019-02-10 13:25:39.961181
+ Loss = 0.008033609065829743
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.992403932082 total acc: 0.966487935657
+Epoch 50 @ 2019-02-10 13:26:30.657603
+ Loss = 0.010638856361471286
+dev data size 2238
+Dev agg acc number predict acc:0.971849865952 partial acc: 0.992403932082 total acc: 0.964253798034
+Epoch 51 @ 2019-02-10 13:27:21.467723
+ Loss = 0.006748618680469506
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 52 @ 2019-02-10 13:28:12.465180
+ Loss = 0.006210620809690967
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.992850759607 total acc: 0.966487935657
+Epoch 53 @ 2019-02-10 13:29:02.941888
+ Loss = 0.004669194734044556
+dev data size 2238
+Dev agg acc number predict acc:0.972296693476 partial acc: 0.99508489723 total acc: 0.967381590706
+Epoch 54 @ 2019-02-10 13:29:53.448891
+ Loss = 0.0040954966084291505
+dev data size 2238
+Dev agg acc number predict acc:0.970509383378 partial acc: 0.991957104558 total acc: 0.962466487936
+Epoch 55 @ 2019-02-10 13:30:45.003338
+ Loss = 0.00621592410517744
+dev data size 2238
+Dev agg acc number predict acc:0.971403038427 partial acc: 0.992403932082 total acc: 0.963806970509
+Epoch 56 @ 2019-02-10 13:31:35.312434
+ Loss = 0.010720519442658725
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.991957104558 total acc: 0.965147453083
+Epoch 57 @ 2019-02-10 13:32:25.113476
+ Loss = 0.004627747769119823
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.991510277033 total acc: 0.964253798034
+Epoch 58 @ 2019-02-10 13:33:15.813163
+ Loss = 0.004949769778675579
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.993744414656 total acc: 0.967828418231
+Epoch 59 @ 2019-02-10 13:34:06.812242
+ Loss = 0.0058349876173464715
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.991957104558 total acc: 0.965147453083
+Epoch 60 @ 2019-02-10 13:34:57.675969
+ Loss = 0.0056480969355052445
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992850759607 total acc: 0.967381590706
+Epoch 61 @ 2019-02-10 13:35:47.649411
+ Loss = 0.009091763895176116
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992403932082 total acc: 0.967381590706
+Epoch 62 @ 2019-02-10 13:36:36.180886
+ Loss = 0.0024303937011965846
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.992850759607 total acc: 0.966041108132
+Epoch 63 @ 2019-02-10 13:37:27.134006
+ Loss = 0.0021195411707068245
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.992850759607 total acc: 0.965594280608
+Epoch 64 @ 2019-02-10 13:38:17.327326
+ Loss = 0.0024764849430898863
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991063449508 total acc: 0.966041108132
+Epoch 65 @ 2019-02-10 13:39:07.667944
+ Loss = 0.0064211159930779044
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.990616621984 total acc: 0.964253798034
+Epoch 66 @ 2019-02-10 13:39:58.832391
+ Loss = 0.003954842760954251
+dev data size 2238
+Dev agg acc number predict acc:0.971849865952 partial acc: 0.98927613941 total acc: 0.961126005362
+Epoch 67 @ 2019-02-10 13:40:49.560818
+ Loss = 0.00972071033162261
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991510277033 total acc: 0.966934763181
+Epoch 68 @ 2019-02-10 13:41:40.365725
+ Loss = 0.006739559171352813
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.991510277033 total acc: 0.964253798034
+Epoch 69 @ 2019-02-10 13:42:30.061058
+ Loss = 0.0031058090658398047
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Epoch 70 @ 2019-02-10 13:43:20.021888
+ Loss = 0.0019755249725664126
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992403932082 total acc: 0.967381590706
+Epoch 71 @ 2019-02-10 13:44:11.148195
+ Loss = 0.0024515780890358337
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991063449508 total acc: 0.96872207328
+Epoch 72 @ 2019-02-10 13:45:01.665432
+ Loss = 0.005775476354260361
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992403932082 total acc: 0.96872207328
+Epoch 73 @ 2019-02-10 13:45:51.746619
+ Loss = 0.005041430600192573
+dev data size 2238
+Dev agg acc number predict acc:0.969615728329 partial acc: 0.992850759607 total acc: 0.962466487936
+Epoch 74 @ 2019-02-10 13:46:42.647599
+ Loss = 0.002430549082688539
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993744414656 total acc: 0.968275245755
+Epoch 75 @ 2019-02-10 13:47:33.026499
+ Loss = 0.0047400299270522585
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.993297587131 total acc: 0.966934763181
+Epoch 76 @ 2019-02-10 13:48:23.608981
+ Loss = 0.004285704579203045
+dev data size 2238
+Dev agg acc number predict acc:0.967828418231 partial acc: 0.993297587131 total acc: 0.961126005362
+Epoch 77 @ 2019-02-10 13:49:13.715983
+ Loss = 0.0027304527634201305
+dev data size 2238
+Dev agg acc number predict acc:0.970509383378 partial acc: 0.994191242181 total acc: 0.964700625559
+Epoch 78 @ 2019-02-10 13:50:03.598116
+ Loss = 0.0017918221211742828
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.992403932082 total acc: 0.965594280608
+Epoch 79 @ 2019-02-10 13:50:53.860121
+ Loss = 0.010143142623412694
+dev data size 2238
+Dev agg acc number predict acc:0.966487935657 partial acc: 0.992403932082 total acc: 0.958891867739
+Epoch 80 @ 2019-02-10 13:51:45.279593
+ Loss = 0.003926988840746056
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Save model...
+Epoch 81 @ 2019-02-10 13:52:35.477422
+ Loss = 0.002556376841582929
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.993297587131 total acc: 0.966487935657
+Epoch 82 @ 2019-02-10 13:53:25.758040
+ Loss = 0.002455828651973654
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991510277033 total acc: 0.967828418231
+Epoch 83 @ 2019-02-10 13:54:16.624735
+ Loss = 0.0015664583150001641
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.992850759607 total acc: 0.966934763181
+Epoch 84 @ 2019-02-10 13:55:07.458252
+ Loss = 0.0018061980823236307
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.993297587131 total acc: 0.966934763181
+Epoch 85 @ 2019-02-10 13:55:57.799289
+ Loss = 0.0012486135889296054
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991063449508 total acc: 0.966487935657
+Epoch 86 @ 2019-02-10 13:56:48.407387
+ Loss = 0.0029265299082167607
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.988829311886 total acc: 0.963806970509
+Epoch 87 @ 2019-02-10 13:57:38.903812
+ Loss = 0.009692690217161246
+dev data size 2238
+Dev agg acc number predict acc:0.972296693476 partial acc: 0.991063449508 total acc: 0.963360142985
+Epoch 88 @ 2019-02-10 13:58:29.657819
+ Loss = 0.005412436635325787
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.994638069705 total acc: 0.968275245755
+Epoch 89 @ 2019-02-10 13:59:20.095904
+ Loss = 0.0017704431702537102
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992403932082 total acc: 0.967381590706
+Epoch 90 @ 2019-02-10 14:00:10.193918
+ Loss = 0.0027508158976128957
+dev data size 2238
+Dev agg acc number predict acc:0.970956210903 partial acc: 0.994191242181 total acc: 0.965147453083
+Epoch 91 @ 2019-02-10 14:01:01.880034
+ Loss = 0.0025795197423718152
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.991510277033 total acc: 0.966041108132
+Epoch 92 @ 2019-02-10 14:01:52.373502
+ Loss = 0.003508208435651556
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992403932082 total acc: 0.966934763181
+Epoch 93 @ 2019-02-10 14:02:43.320515
+ Loss = 0.0034964059800871744
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992403932082 total acc: 0.968275245755
+Epoch 94 @ 2019-02-10 14:03:34.116836
+ Loss = 0.0022125326993247874
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992403932082 total acc: 0.96872207328
+Epoch 95 @ 2019-02-10 14:04:24.945540
+ Loss = 0.002501546912823566
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.991957104558 total acc: 0.965147453083
+Epoch 96 @ 2019-02-10 14:05:15.841943
+ Loss = 0.0020243745451744787
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992403932082 total acc: 0.968275245755
+Epoch 97 @ 2019-02-10 14:06:06.024441
+ Loss = 0.0013863776516649829
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.991510277033 total acc: 0.966041108132
+Epoch 98 @ 2019-02-10 14:06:56.320581
+ Loss = 0.007879233704678395
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.992850759607 total acc: 0.965594280608
+Epoch 99 @ 2019-02-10 14:07:46.807332
+ Loss = 0.005965893659257549
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.991957104558 total acc: 0.966041108132
+Epoch 100 @ 2019-02-10 14:08:38.017933
+ Loss = 0.0032656969871521844
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 101 @ 2019-02-10 14:09:28.764720
+ Loss = 0.004223968859993358
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992850759607 total acc: 0.967828418231
+Epoch 102 @ 2019-02-10 14:10:19.054330
+ Loss = 0.002455433673752786
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.994191242181 total acc: 0.968275245755
+Epoch 103 @ 2019-02-10 14:11:08.997291
+ Loss = 0.0011812106204265337
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.994191242181 total acc: 0.967828418231
+Epoch 104 @ 2019-02-10 14:11:59.071978
+ Loss = 0.0011379694050662485
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.994638069705 total acc: 0.96872207328
+Epoch 105 @ 2019-02-10 14:12:48.322195
+ Loss = 0.001104157641193621
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.99508489723 total acc: 0.970062555853
+Save model...
+Epoch 106 @ 2019-02-10 14:13:38.601139
+ Loss = 0.0013367281889915931
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.994191242181 total acc: 0.96872207328
+Epoch 107 @ 2019-02-10 14:14:28.434414
+ Loss = 0.004147827765139348
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.990616621984 total acc: 0.964700625559
+Epoch 108 @ 2019-02-10 14:15:19.464852
+ Loss = 0.003440657332200921
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.993297587131 total acc: 0.966934763181
+Epoch 109 @ 2019-02-10 14:16:09.950714
+ Loss = 0.004218830805694262
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.991957104558 total acc: 0.965147453083
+Epoch 110 @ 2019-02-10 14:17:01.306957
+ Loss = 0.0035532853472996584
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991957104558 total acc: 0.968275245755
+Epoch 111 @ 2019-02-10 14:17:51.954884
+ Loss = 0.0067672136905364486
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993744414656 total acc: 0.968275245755
+Epoch 112 @ 2019-02-10 14:18:41.963538
+ Loss = 0.001966993184752781
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.992850759607 total acc: 0.966041108132
+Epoch 113 @ 2019-02-10 14:19:33.119932
+ Loss = 0.0008121694412279002
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992403932082 total acc: 0.96872207328
+Epoch 114 @ 2019-02-10 14:20:23.689537
+ Loss = 0.0010419586660715956
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992850759607 total acc: 0.970509383378
+Save model...
+Epoch 115 @ 2019-02-10 14:21:14.847258
+ Loss = 0.0009826375849083884
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.993744414656 total acc: 0.970956210903
+Save model...
+Epoch 116 @ 2019-02-10 14:22:05.415653
+ Loss = 0.001327887583775362
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 117 @ 2019-02-10 14:22:55.048067
+ Loss = 0.00132499672752222
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992850759607 total acc: 0.969168900804
+Epoch 118 @ 2019-02-10 14:23:43.236116
+ Loss = 0.004462022095672693
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.988829311886 total acc: 0.96291331546
+Epoch 119 @ 2019-02-10 14:24:30.971756
+ Loss = 0.0020317786191108695
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 120 @ 2019-02-10 14:25:17.899541
+ Loss = 0.0012896478686992843
+dev data size 2238
+Dev agg acc number predict acc:0.965594280608 partial acc: 0.994191242181 total acc: 0.959785522788
+Epoch 121 @ 2019-02-10 14:26:05.938833
+ Loss = 0.002823970143457626
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992850759607 total acc: 0.967381590706
+Epoch 122 @ 2019-02-10 14:26:52.972996
+ Loss = 0.004044270053110832
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.993297587131 total acc: 0.970509383378
+Epoch 123 @ 2019-02-10 14:27:40.677480
+ Loss = 0.0012300699902113182
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.992403932082 total acc: 0.969168900804
+Epoch 124 @ 2019-02-10 14:28:28.381271
+ Loss = 0.0010595899362055674
+dev data size 2238
+Dev agg acc number predict acc:0.973190348525 partial acc: 0.993744414656 total acc: 0.966934763181
+Epoch 125 @ 2019-02-10 14:29:15.608631
+ Loss = 0.000936997451917231
+dev data size 2238
+Dev agg acc number predict acc:0.97363717605 partial acc: 0.993297587131 total acc: 0.966934763181
+Epoch 126 @ 2019-02-10 14:30:02.351595
+ Loss = 0.0006387289681457878
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.994191242181 total acc: 0.971403038427
+Save model...
+Epoch 127 @ 2019-02-10 14:30:51.076112
+ Loss = 0.0075315664304951265
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992850759607 total acc: 0.967828418231
+Epoch 128 @ 2019-02-10 14:31:38.801395
+ Loss = 0.001059871099247952
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.993297587131 total acc: 0.96872207328
+Epoch 129 @ 2019-02-10 14:32:27.430919
+ Loss = 0.0006002582124155953
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.992850759607 total acc: 0.969615728329
+Epoch 130 @ 2019-02-10 14:33:14.916935
+ Loss = 0.00047853279628138067
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.993744414656 total acc: 0.969615728329
+Epoch 131 @ 2019-02-10 14:34:02.842534
+ Loss = 0.0007395984868651189
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.993297587131 total acc: 0.969168900804
+Epoch 132 @ 2019-02-10 14:34:49.021656
+ Loss = 0.005557963817071687
+dev data size 2238
+Dev agg acc number predict acc:0.971849865952 partial acc: 0.99508489723 total acc: 0.966934763181
+Epoch 133 @ 2019-02-10 14:35:37.469907
+ Loss = 0.007238337913088291
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.993744414656 total acc: 0.969168900804
+Epoch 134 @ 2019-02-10 14:36:25.316414
+ Loss = 0.0016961058055140832
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.993297587131 total acc: 0.96872207328
+Epoch 135 @ 2019-02-10 14:37:14.950762
+ Loss = 0.0008390498336156635
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.994191242181 total acc: 0.969615728329
+Epoch 136 @ 2019-02-10 14:38:04.594167
+ Loss = 0.0010189095704302381
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.994191242181 total acc: 0.969168900804
+Epoch 137 @ 2019-02-10 14:38:53.544046
+ Loss = 0.0009844801755800304
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992850759607 total acc: 0.967828418231
+Epoch 138 @ 2019-02-10 14:39:42.596844
+ Loss = 0.0006480663267646502
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 139 @ 2019-02-10 14:40:31.887998
+ Loss = 0.0007455597182761399
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993744414656 total acc: 0.968275245755
+Epoch 140 @ 2019-02-10 14:41:21.181213
+ Loss = 0.006273264019164622
+dev data size 2238
+Dev agg acc number predict acc:0.969615728329 partial acc: 0.990169794459 total acc: 0.959785522788
+Epoch 141 @ 2019-02-10 14:42:10.534300
+ Loss = 0.007321872340254407
+dev data size 2238
+Dev agg acc number predict acc:0.972296693476 partial acc: 0.991957104558 total acc: 0.964253798034
+Epoch 142 @ 2019-02-10 14:42:59.819266
+ Loss = 0.0017748773386458234
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992850759607 total acc: 0.96872207328
+Epoch 143 @ 2019-02-10 14:43:49.264261
+ Loss = 0.002974201806484837
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.993297587131 total acc: 0.968275245755
+Epoch 144 @ 2019-02-10 14:44:38.411105
+ Loss = 0.0013156147137299364
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.993744414656 total acc: 0.96872207328
+Epoch 145 @ 2019-02-10 14:45:27.195938
+ Loss = 0.0006450625824392045
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993744414656 total acc: 0.968275245755
+Epoch 146 @ 2019-02-10 14:46:16.237128
+ Loss = 0.0006739715144435319
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.993744414656 total acc: 0.970062555853
+Epoch 147 @ 2019-02-10 14:47:05.692738
+ Loss = 0.0003533703258774445
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992850759607 total acc: 0.968275245755
+Epoch 148 @ 2019-02-10 14:47:55.491066
+ Loss = 0.00040133719542292246
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.994191242181 total acc: 0.96872207328
+Epoch 149 @ 2019-02-10 14:48:45.845737
+ Loss = 0.0002997492996934133
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.993297587131 total acc: 0.96872207328
+Epoch 150 @ 2019-02-10 14:49:36.235736
+ Loss = 0.00017223138273855692
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992403932082 total acc: 0.967381590706
+Epoch 151 @ 2019-02-10 14:50:26.430273
+ Loss = 0.00022124199686664135
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.993297587131 total acc: 0.969168900804
+Epoch 152 @ 2019-02-10 14:51:16.678087
+ Loss = 0.0008410398679520116
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992403932082 total acc: 0.967381590706
+Epoch 153 @ 2019-02-10 14:52:07.078342
+ Loss = 0.0045341320566729916
+dev data size 2238
+Dev agg acc number predict acc:0.972743521001 partial acc: 0.993297587131 total acc: 0.966041108132
+Epoch 154 @ 2019-02-10 14:52:56.970999
+ Loss = 0.004005776474732648
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.990616621984 total acc: 0.967381590706
+Epoch 155 @ 2019-02-10 14:53:47.144532
+ Loss = 0.0006572082652118348
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 156 @ 2019-02-10 14:54:37.248810
+ Loss = 0.00027121422932042293
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 157 @ 2019-02-10 14:55:27.375662
+ Loss = 0.0008168384933997834
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.993744414656 total acc: 0.96872207328
+Epoch 158 @ 2019-02-10 14:56:18.070617
+ Loss = 0.00948990195696837
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 159 @ 2019-02-10 14:57:08.059643
+ Loss = 0.002663407923308631
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993297587131 total acc: 0.967828418231
+Epoch 160 @ 2019-02-10 14:57:58.175271
+ Loss = 0.0006990443775715581
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.992403932082 total acc: 0.969168900804
+Epoch 161 @ 2019-02-10 14:58:48.772988
+ Loss = 0.0004280442897217739
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992403932082 total acc: 0.968275245755
+Epoch 162 @ 2019-02-10 14:59:38.312977
+ Loss = 0.001974299453882377
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.993297587131 total acc: 0.968275245755
+Epoch 163 @ 2019-02-10 15:00:28.699769
+ Loss = 0.00039614126823796523
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992850759607 total acc: 0.970509383378
+Epoch 164 @ 2019-02-10 15:01:18.271339
+ Loss = 0.001213754161199855
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992850759607 total acc: 0.968275245755
+Epoch 165 @ 2019-02-10 15:02:08.178312
+ Loss = 0.0004147072935768161
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991510277033 total acc: 0.969615728329
+Epoch 166 @ 2019-02-10 15:02:58.003920
+ Loss = 0.00022837649769842145
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992403932082 total acc: 0.970509383378
+Epoch 167 @ 2019-02-10 15:03:48.061902
+ Loss = 0.00015380942618487017
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.993297587131 total acc: 0.970956210903
+Epoch 168 @ 2019-02-10 15:04:37.856526
+ Loss = 0.0004010989800798222
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.992850759607 total acc: 0.971403038427
+Epoch 169 @ 2019-02-10 15:05:27.765247
+ Loss = 0.00015249712611989564
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.993297587131 total acc: 0.971403038427
+Epoch 170 @ 2019-02-10 15:06:18.084913
+ Loss = 0.00010784231525921916
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.993744414656 total acc: 0.971849865952
+Save model...
+Epoch 171 @ 2019-02-10 15:07:08.965368
+ Loss = 0.00961138322389058
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.990616621984 total acc: 0.96872207328
+Epoch 172 @ 2019-02-10 15:07:56.994720
+ Loss = 0.0007409253012266761
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.994638069705 total acc: 0.970956210903
+Epoch 173 @ 2019-02-10 15:08:44.809673
+ Loss = 0.00030128508719185203
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.993297587131 total acc: 0.969168900804
+Epoch 174 @ 2019-02-10 15:09:34.728630
+ Loss = 0.0002457881250535375
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 175 @ 2019-02-10 15:10:24.707702
+ Loss = 0.00017987519866038488
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992403932082 total acc: 0.968275245755
+Epoch 176 @ 2019-02-10 15:11:14.337328
+ Loss = 0.00015859805765584687
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992850759607 total acc: 0.969168900804
+Epoch 177 @ 2019-02-10 15:12:04.760412
+ Loss = 0.0006662096568275266
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991063449508 total acc: 0.966487935657
+Epoch 178 @ 2019-02-10 15:12:54.641643
+ Loss = 0.007281363274358495
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992850759607 total acc: 0.967828418231
+Epoch 179 @ 2019-02-10 15:13:44.219704
+ Loss = 0.001888699577247221
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993297587131 total acc: 0.967828418231
+Epoch 180 @ 2019-02-10 15:14:34.152024
+ Loss = 0.0007336318885231619
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992850759607 total acc: 0.969168900804
+Epoch 181 @ 2019-02-10 15:15:22.247123
+ Loss = 0.0002519149986190453
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 182 @ 2019-02-10 15:16:07.619264
+ Loss = 0.0010948644822840789
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Epoch 183 @ 2019-02-10 15:16:56.568355
+ Loss = 0.00022604491098662165
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991957104558 total acc: 0.968275245755
+Epoch 184 @ 2019-02-10 15:17:47.060654
+ Loss = 0.0001570589742060199
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991510277033 total acc: 0.967381590706
+Epoch 185 @ 2019-02-10 15:18:37.773621
+ Loss = 0.0001222107039726684
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991957104558 total acc: 0.967828418231
+Epoch 186 @ 2019-02-10 15:19:27.588787
+ Loss = 0.00018819124246082227
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992850759607 total acc: 0.968275245755
+Epoch 187 @ 2019-02-10 15:20:18.038026
+ Loss = 0.0015549991142963292
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 188 @ 2019-02-10 15:21:08.302908
+ Loss = 0.002936913720103628
+dev data size 2238
+Dev agg acc number predict acc:0.971849865952 partial acc: 0.993297587131 total acc: 0.965147453083
+Epoch 189 @ 2019-02-10 15:21:58.882813
+ Loss = 0.004521391126731123
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.991957104558 total acc: 0.966041108132
+Epoch 190 @ 2019-02-10 15:22:50.267955
+ Loss = 0.00036458105195174894
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991063449508 total acc: 0.966041108132
+Epoch 191 @ 2019-02-10 15:23:40.807341
+ Loss = 0.00018872411511311642
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991510277033 total acc: 0.966487935657
+Epoch 192 @ 2019-02-10 15:24:30.717035
+ Loss = 0.0001419657275595511
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992403932082 total acc: 0.967828418231
+Epoch 193 @ 2019-02-10 15:25:20.203377
+ Loss = 0.00014357859328929543
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991957104558 total acc: 0.967381590706
+Epoch 194 @ 2019-02-10 15:26:09.413200
+ Loss = 8.59866307967907e-05
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991957104558 total acc: 0.967381590706
+Epoch 195 @ 2019-02-10 15:26:59.288248
+ Loss = 0.0002465938830507941
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.992850759607 total acc: 0.968275245755
+Epoch 196 @ 2019-02-10 15:27:48.584969
+ Loss = 9.512184603001768e-05
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.992850759607 total acc: 0.967828418231
+Epoch 197 @ 2019-02-10 15:28:37.656822
+ Loss = 0.0024218973548459765
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.991957104558 total acc: 0.966487935657
+Epoch 198 @ 2019-02-10 15:29:30.745997
+ Loss = 0.007912036717103109
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.993744414656 total acc: 0.970062555853
+Epoch 199 @ 2019-02-10 15:30:21.463344
+ Loss = 0.0011640442436058264
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991063449508 total acc: 0.967828418231
+Epoch 200 @ 2019-02-10 15:31:11.643527
+ Loss = 0.0025763610862524276
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 201 @ 2019-02-10 15:32:02.124622
+ Loss = 0.0005151473747041124
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.993297587131 total acc: 0.970062555853
+Epoch 202 @ 2019-02-10 15:32:52.566448
+ Loss = 0.0001660652734586715
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.993297587131 total acc: 0.970509383378
+Epoch 203 @ 2019-02-10 15:33:43.082873
+ Loss = 9.97472584815062e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.993297587131 total acc: 0.970509383378
+Epoch 204 @ 2019-02-10 15:34:33.169569
+ Loss = 0.00012079989315167681
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.993297587131 total acc: 0.970509383378
+Epoch 205 @ 2019-02-10 15:35:23.729522
+ Loss = 0.00013714497504023772
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 206 @ 2019-02-10 15:36:14.175515
+ Loss = 7.287720728386116e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992850759607 total acc: 0.970509383378
+Epoch 207 @ 2019-02-10 15:37:04.730163
+ Loss = 8.683227782467989e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Epoch 208 @ 2019-02-10 15:37:52.799844
+ Loss = 6.410979933210821e-05
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.992850759607 total acc: 0.96872207328
+Epoch 209 @ 2019-02-10 15:38:41.963753
+ Loss = 8.159496167142995e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Epoch 210 @ 2019-02-10 15:39:32.160985
+ Loss = 7.241871041773736e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991957104558 total acc: 0.970062555853
+Epoch 211 @ 2019-02-10 15:40:22.327325
+ Loss = 0.005950603392011607
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.993297587131 total acc: 0.967828418231
+Epoch 212 @ 2019-02-10 15:41:12.327415
+ Loss = 0.0014684336201586452
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991510277033 total acc: 0.967828418231
+Epoch 213 @ 2019-02-10 15:42:02.580886
+ Loss = 0.000295946858767951
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 214 @ 2019-02-10 15:42:52.588986
+ Loss = 0.0008624501705843839
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991957104558 total acc: 0.968275245755
+Epoch 215 @ 2019-02-10 15:43:40.928091
+ Loss = 0.003599257345612129
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991510277033 total acc: 0.968275245755
+Epoch 216 @ 2019-02-10 15:44:31.193491
+ Loss = 0.00021691499835682632
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 217 @ 2019-02-10 15:45:22.174867
+ Loss = 0.0001345295083451352
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992403932082 total acc: 0.96872207328
+Epoch 218 @ 2019-02-10 15:46:07.762230
+ Loss = 0.00011702522857895603
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.992403932082 total acc: 0.969168900804
+Epoch 219 @ 2019-02-10 15:46:51.459048
+ Loss = 6.561018330706381e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 220 @ 2019-02-10 15:47:35.678497
+ Loss = 7.814265823316544e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 221 @ 2019-02-10 15:48:18.868992
+ Loss = 5.4639229810798636e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 222 @ 2019-02-10 15:49:06.340017
+ Loss = 5.048100965370462e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Epoch 223 @ 2019-02-10 15:49:55.993763
+ Loss = 0.0017362048979882895
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 224 @ 2019-02-10 15:50:46.333479
+ Loss = 0.0051516703161583665
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991957104558 total acc: 0.967828418231
+Epoch 225 @ 2019-02-10 15:51:36.088320
+ Loss = 0.0018721039870391906
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991063449508 total acc: 0.966041108132
+Epoch 226 @ 2019-02-10 15:52:26.688358
+ Loss = 0.0002636433156836726
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991510277033 total acc: 0.966487935657
+Epoch 227 @ 2019-02-10 15:53:12.528054
+ Loss = 0.000121070604789062
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991063449508 total acc: 0.967381590706
+Epoch 228 @ 2019-02-10 15:54:00.472928
+ Loss = 0.00012756644320531592
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991957104558 total acc: 0.967381590706
+Epoch 229 @ 2019-02-10 15:54:49.108174
+ Loss = 6.92160901703908e-05
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991063449508 total acc: 0.966934763181
+Epoch 230 @ 2019-02-10 15:55:38.006527
+ Loss = 0.00012930544041905748
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.989722966935 total acc: 0.967828418231
+Epoch 231 @ 2019-02-10 15:56:27.124901
+ Loss = 0.00019382070212288708
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991063449508 total acc: 0.966041108132
+Epoch 232 @ 2019-02-10 15:57:16.037662
+ Loss = 0.00261281684776629
+dev data size 2238
+Dev agg acc number predict acc:0.978999106345 partial acc: 0.991510277033 total acc: 0.970509383378
+Epoch 233 @ 2019-02-10 15:58:04.876665
+ Loss = 0.001933839805815009
+dev data size 2238
+Dev agg acc number predict acc:0.97944593387 partial acc: 0.991957104558 total acc: 0.971403038427
+Epoch 234 @ 2019-02-10 15:58:54.747423
+ Loss = 0.001206566434694217
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 235 @ 2019-02-10 15:59:45.158858
+ Loss = 0.00011532462617272184
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992403932082 total acc: 0.970062555853
+Epoch 236 @ 2019-02-10 16:00:35.413822
+ Loss = 9.381209023135805e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992403932082 total acc: 0.970062555853
+Epoch 237 @ 2019-02-10 16:01:25.662161
+ Loss = 9.650172662084963e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 238 @ 2019-02-10 16:02:15.819982
+ Loss = 5.7247076483612476e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 239 @ 2019-02-10 16:03:06.080749
+ Loss = 5.1234480578584466e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 240 @ 2019-02-10 16:03:56.508362
+ Loss = 3.7615725295152745e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992403932082 total acc: 0.970062555853
+Epoch 241 @ 2019-02-10 16:04:46.578214
+ Loss = 3.5142158166551427e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992403932082 total acc: 0.970062555853
+Epoch 242 @ 2019-02-10 16:05:36.791765
+ Loss = 3.199757130228012e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992403932082 total acc: 0.970509383378
+Epoch 243 @ 2019-02-10 16:06:27.263801
+ Loss = 0.0002271286354904063
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.992850759607 total acc: 0.969615728329
+Epoch 244 @ 2019-02-10 16:07:17.561597
+ Loss = 0.0007611664849921908
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.990169794459 total acc: 0.966041108132
+Epoch 245 @ 2019-02-10 16:08:07.875190
+ Loss = 0.0064138056815672174
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.993297587131 total acc: 0.970956210903
+Epoch 246 @ 2019-02-10 16:08:58.037458
+ Loss = 0.0034537763530560132
+dev data size 2238
+Dev agg acc number predict acc:0.975871313673 partial acc: 0.991957104558 total acc: 0.967828418231
+Epoch 247 @ 2019-02-10 16:09:48.535006
+ Loss = 0.0010728569748010206
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991510277033 total acc: 0.967828418231
+Epoch 248 @ 2019-02-10 16:10:38.786137
+ Loss = 0.00043099236369813237
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992850759607 total acc: 0.970062555853
+Epoch 249 @ 2019-02-10 16:11:29.223102
+ Loss = 0.0003187787667299546
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992850759607 total acc: 0.970509383378
+Epoch 250 @ 2019-02-10 16:12:19.866040
+ Loss = 0.00012446447679757461
+dev data size 2238
+Dev agg acc number predict acc:0.978999106345 partial acc: 0.991063449508 total acc: 0.970062555853
+Epoch 251 @ 2019-02-10 16:13:10.255767
+ Loss = 6.557089526177235e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992850759607 total acc: 0.970956210903
+Epoch 252 @ 2019-02-10 16:14:00.623047
+ Loss = 4.852980640531265e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 253 @ 2019-02-10 16:14:51.024804
+ Loss = 4.271999428861326e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991957104558 total acc: 0.970062555853
+Epoch 254 @ 2019-02-10 16:15:41.188543
+ Loss = 3.555932922311633e-05
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.991957104558 total acc: 0.970509383378
+Epoch 255 @ 2019-02-10 16:16:31.109067
+ Loss = 6.702228390114535e-05
+dev data size 2238
+Dev agg acc number predict acc:0.974084003575 partial acc: 0.992403932082 total acc: 0.966487935657
+Epoch 256 @ 2019-02-10 16:17:21.236662
+ Loss = 0.0008394383554253185
+dev data size 2238
+Dev agg acc number predict acc:0.97944593387 partial acc: 0.992403932082 total acc: 0.971849865952
+Epoch 257 @ 2019-02-10 16:18:11.098422
+ Loss = 0.0001960613911375451
+dev data size 2238
+Dev agg acc number predict acc:0.978999106345 partial acc: 0.993744414656 total acc: 0.972743521001
+Save model...
+Epoch 258 @ 2019-02-10 16:18:59.918649
+ Loss = 0.008074737341507645
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992850759607 total acc: 0.967381590706
+Epoch 259 @ 2019-02-10 16:19:43.943704
+ Loss = 0.0009574382006068517
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.994191242181 total acc: 0.96872207328
+Epoch 260 @ 2019-02-10 16:20:33.026721
+ Loss = 0.0003273601823072651
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 261 @ 2019-02-10 16:21:19.838741
+ Loss = 0.0008571783208759717
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.990169794459 total acc: 0.966934763181
+Epoch 262 @ 2019-02-10 16:22:05.032013
+ Loss = 0.0006474525808036567
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991063449508 total acc: 0.968275245755
+Epoch 263 @ 2019-02-10 16:22:50.134933
+ Loss = 0.0012195822015690742
+dev data size 2238
+Dev agg acc number predict acc:0.974977658624 partial acc: 0.991957104558 total acc: 0.966934763181
+Epoch 264 @ 2019-02-10 16:23:35.766919
+ Loss = 0.00015155155229981576
+dev data size 2238
+Dev agg acc number predict acc:0.975424486148 partial acc: 0.991957104558 total acc: 0.967381590706
+Epoch 265 @ 2019-02-10 16:24:20.187625
+ Loss = 6.650931352021063e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.990616621984 total acc: 0.967381590706
+Epoch 266 @ 2019-02-10 16:25:05.541283
+ Loss = 0.0001798999200383771
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.990616621984 total acc: 0.966934763181
+Epoch 267 @ 2019-02-10 16:25:56.674011
+ Loss = 7.365202135324034e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.990616621984 total acc: 0.966934763181
+Epoch 268 @ 2019-02-10 16:26:47.672093
+ Loss = 4.799251388183551e-05
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.991063449508 total acc: 0.967381590706
+Epoch 269 @ 2019-02-10 16:27:38.227479
+ Loss = 0.0013246569629727738
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 270 @ 2019-02-10 16:28:27.929171
+ Loss = 0.0026657861748075728
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 271 @ 2019-02-10 16:29:18.264743
+ Loss = 0.0001535248456304709
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991063449508 total acc: 0.968275245755
+Epoch 272 @ 2019-02-10 16:30:08.977595
+ Loss = 0.0015006125251629011
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992403932082 total acc: 0.966934763181
+Epoch 273 @ 2019-02-10 16:30:59.356875
+ Loss = 0.0017467754753284462
+dev data size 2238
+Dev agg acc number predict acc:0.976318141197 partial acc: 0.992403932082 total acc: 0.96872207328
+Epoch 274 @ 2019-02-10 16:31:49.313402
+ Loss = 0.00011490039422914422
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Epoch 275 @ 2019-02-10 16:32:39.499810
+ Loss = 5.1219217931294496e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Epoch 276 @ 2019-02-10 16:33:29.815047
+ Loss = 0.0004355670865409094
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.990616621984 total acc: 0.968275245755
+Epoch 277 @ 2019-02-10 16:34:19.861629
+ Loss = 0.0013818717848984444
+dev data size 2238
+Dev agg acc number predict acc:0.974530831099 partial acc: 0.992850759607 total acc: 0.967381590706
+Epoch 278 @ 2019-02-10 16:35:09.864190
+ Loss = 0.0007473978870948623
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 279 @ 2019-02-10 16:36:00.536678
+ Loss = 0.0001650987190165027
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991510277033 total acc: 0.969615728329
+Epoch 280 @ 2019-02-10 16:36:50.543108
+ Loss = 5.144336722889258e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991510277033 total acc: 0.969168900804
+Epoch 281 @ 2019-02-10 16:37:40.782074
+ Loss = 0.0002554285501759737
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 282 @ 2019-02-10 16:38:31.124942
+ Loss = 0.0016556221276706026
+dev data size 2238
+Dev agg acc number predict acc:0.97944593387 partial acc: 0.989722966935 total acc: 0.969168900804
+Epoch 283 @ 2019-02-10 16:39:21.296603
+ Loss = 0.0022091978671825337
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804
+Epoch 284 @ 2019-02-10 16:40:11.402101
+ Loss = 0.002265610938648673
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.992850759607 total acc: 0.970509383378
+Epoch 285 @ 2019-02-10 16:41:01.353798
+ Loss = 0.00021247769603986347
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.990616621984 total acc: 0.967828418231
+Epoch 286 @ 2019-02-10 16:41:51.204525
+ Loss = 6.02058770524356e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991510277033 total acc: 0.96872207328
+Epoch 287 @ 2019-02-10 16:42:41.552300
+ Loss = 0.0002512058646092112
+dev data size 2238
+Dev agg acc number predict acc:0.976764968722 partial acc: 0.991957104558 total acc: 0.96872207328
+Epoch 288 @ 2019-02-10 16:43:31.558941
+ Loss = 4.2643497395167634e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991957104558 total acc: 0.970062555853
+Epoch 289 @ 2019-02-10 16:44:21.982372
+ Loss = 6.434013685527396e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977658623771 partial acc: 0.991957104558 total acc: 0.969615728329
+Epoch 290 @ 2019-02-10 16:45:12.165585
+ Loss = 0.00010061407856745131
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 291 @ 2019-02-10 16:45:50.285177
+ Loss = 3.3672125967989524e-05
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.992403932082 total acc: 0.969615728329
+Epoch 292 @ 2019-02-10 16:46:22.904160
+ Loss = 2.6813191121085536e-05
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.992403932082 total acc: 0.970956210903
+Epoch 293 @ 2019-02-10 16:46:55.593829
+ Loss = 2.2917791319240038e-05
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.991957104558 total acc: 0.970509383378
+Epoch 294 @ 2019-02-10 16:47:28.134163
+ Loss = 2.2080352736252356e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992403932082 total acc: 0.970509383378
+Epoch 295 @ 2019-02-10 16:48:00.428123
+ Loss = 1.982717235539113e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992403932082 total acc: 0.970509383378
+Epoch 296 @ 2019-02-10 16:48:33.052578
+ Loss = 1.7283170620435204e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.992403932082 total acc: 0.970509383378
+Epoch 297 @ 2019-02-10 16:49:05.579538
+ Loss = 1.8633369175190485e-05
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.992403932082 total acc: 0.970956210903
+Epoch 298 @ 2019-02-10 16:49:38.406508
+ Loss = 1.5471926160018504e-05
+dev data size 2238
+Dev agg acc number predict acc:0.978105451296 partial acc: 0.991510277033 total acc: 0.969615728329
+Epoch 299 @ 2019-02-10 16:50:10.611580
+ Loss = 1.6583414794524605e-05
+dev data size 2238
+Dev agg acc number predict acc:0.97855227882 partial acc: 0.991957104558 total acc: 0.970509383378
+Epoch 300 @ 2019-02-10 16:50:43.334488
+ Loss = 0.0002451225549082421
+dev data size 2238
+Dev agg acc number predict acc:0.977211796247 partial acc: 0.991957104558 total acc: 0.969168900804

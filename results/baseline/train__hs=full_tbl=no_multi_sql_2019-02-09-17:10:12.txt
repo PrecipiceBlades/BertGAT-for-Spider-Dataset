@@ -1,0 +1,1223 @@
+Loading word embedding from glove/glove.42B.300d.txt
+finished load word embedding
+finished build model
+Using fixed embedding
+start training
+Epoch 1 @ 2019-02-10 03:42:01.725988
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/multisql_predictor.py:71: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_qmkw = self.softmax(att_val_qmkw.view((-1, max_q_len))).view(B, -1, max_q_len)
+/afs/inf.ed.ac.uk/user/s17/s1783039/GCN-TextToSql/syntaxSQL/models/multisql_predictor.py:82: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  att_prob_hsmkw = self.softmax(att_val_hsmkw.view((-1, max_hs_len))).view(B, -1, max_hs_len)
+ Loss = 0.4420918891168342
+dev data size 1277
+Dev multi_sql acc total acc: 0.935787000783
+Save model...
+Epoch 2 @ 2019-02-10 03:42:12.211192
+ Loss = 0.18501850252621
+dev data size 1277
+Dev multi_sql acc total acc: 0.935787000783
+Epoch 3 @ 2019-02-10 03:42:21.031383
+ Loss = 0.15815286174994497
+dev data size 1277
+Dev multi_sql acc total acc: 0.935787000783
+Epoch 4 @ 2019-02-10 03:42:29.758170
+ Loss = 0.14325342694929483
+dev data size 1277
+Dev multi_sql acc total acc: 0.935787000783
+Epoch 5 @ 2019-02-10 03:42:38.912101
+ Loss = 0.13064918914313886
+dev data size 1277
+Dev multi_sql acc total acc: 0.935787000783
+Epoch 6 @ 2019-02-10 03:42:47.560779
+ Loss = 0.12717298167417931
+dev data size 1277
+Dev multi_sql acc total acc: 0.938136256852
+Save model...
+Epoch 7 @ 2019-02-10 03:42:59.728973
+ Loss = 0.1134421166052795
+dev data size 1277
+Dev multi_sql acc total acc: 0.939702427565
+Save model...
+Epoch 8 @ 2019-02-10 03:43:10.220876
+ Loss = 0.10041967342582026
+dev data size 1277
+Dev multi_sql acc total acc: 0.938919342208
+Epoch 9 @ 2019-02-10 03:43:18.805242
+ Loss = 0.09119318057663413
+dev data size 1277
+Dev multi_sql acc total acc: 0.942051683634
+Save model...
+Epoch 10 @ 2019-02-10 03:43:28.262761
+ Loss = 0.08854211052554767
+dev data size 1277
+Dev multi_sql acc total acc: 0.946750195771
+Save model...
+Epoch 11 @ 2019-02-10 03:43:37.599580
+ Loss = 0.07167059074370451
+dev data size 1277
+Dev multi_sql acc total acc: 0.949882537197
+Save model...
+Epoch 12 @ 2019-02-10 03:43:47.560799
+ Loss = 0.06725277178755901
+dev data size 1277
+Dev multi_sql acc total acc: 0.946750195771
+Epoch 13 @ 2019-02-10 03:43:57.297924
+ Loss = 0.06518082165661679
+dev data size 1277
+Dev multi_sql acc total acc: 0.952231793265
+Save model...
+Epoch 14 @ 2019-02-10 03:44:06.846844
+ Loss = 0.0582066814280615
+dev data size 1277
+Dev multi_sql acc total acc: 0.952231793265
+Epoch 15 @ 2019-02-10 03:44:15.508511
+ Loss = 0.05034408670359221
+dev data size 1277
+Dev multi_sql acc total acc: 0.953797963978
+Save model...
+Epoch 16 @ 2019-02-10 03:44:25.873947
+ Loss = 0.04626541331412851
+dev data size 1277
+Dev multi_sql acc total acc: 0.953014878622
+Epoch 17 @ 2019-02-10 03:44:36.507954
+ Loss = 0.03952056974317779
+dev data size 1277
+Dev multi_sql acc total acc: 0.946750195771
+Epoch 18 @ 2019-02-10 03:44:45.434076
+ Loss = 0.03684808787936371
+dev data size 1277
+Dev multi_sql acc total acc: 0.948316366484
+Epoch 19 @ 2019-02-10 03:44:54.123530
+ Loss = 0.029375465235681443
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Save model...
+Epoch 20 @ 2019-02-10 03:45:06.268139
+ Loss = 0.028935667972663424
+dev data size 1277
+Dev multi_sql acc total acc: 0.953797963978
+Epoch 21 @ 2019-02-10 03:45:14.871224
+ Loss = 0.026959743179382288
+dev data size 1277
+Dev multi_sql acc total acc: 0.944400939702
+Epoch 22 @ 2019-02-10 03:45:23.562039
+ Loss = 0.025578461994762703
+dev data size 1277
+Dev multi_sql acc total acc: 0.953014878622
+Epoch 23 @ 2019-02-10 03:45:32.239245
+ Loss = 0.0252588694485549
+dev data size 1277
+Dev multi_sql acc total acc: 0.947533281128
+Epoch 24 @ 2019-02-10 03:45:40.960575
+ Loss = 0.02219802936609204
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Save model...
+Epoch 25 @ 2019-02-10 03:45:50.283771
+ Loss = 0.01546885966055803
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 26 @ 2019-02-10 03:45:58.970073
+ Loss = 0.01257612970820807
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Epoch 27 @ 2019-02-10 03:46:07.579948
+ Loss = 0.017883107094423967
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 28 @ 2019-02-10 03:46:16.494320
+ Loss = 0.01367703924658458
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 29 @ 2019-02-10 03:46:24.987099
+ Loss = 0.018463829780321694
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Save model...
+Epoch 30 @ 2019-02-10 03:46:34.344804
+ Loss = 0.0064942786707167
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 31 @ 2019-02-10 03:46:43.015052
+ Loss = 0.015107896921165735
+dev data size 1277
+Dev multi_sql acc total acc: 0.954581049334
+Epoch 32 @ 2019-02-10 03:46:51.656576
+ Loss = 0.006274655297104006
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 33 @ 2019-02-10 03:47:02.155619
+ Loss = 0.011743659417069308
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 34 @ 2019-02-10 03:47:10.912702
+ Loss = 0.008154392067361495
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 35 @ 2019-02-10 03:47:19.613947
+ Loss = 0.003860042060197781
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 36 @ 2019-02-10 03:47:28.242893
+ Loss = 0.014191282714417119
+dev data size 1277
+Dev multi_sql acc total acc: 0.949882537197
+Epoch 37 @ 2019-02-10 03:47:36.936711
+ Loss = 0.008563729159077478
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 38 @ 2019-02-10 03:47:45.597180
+ Loss = 0.002814486591110801
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 39 @ 2019-02-10 03:47:54.203943
+ Loss = 0.0022761243729484287
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Save model...
+Epoch 40 @ 2019-02-10 03:48:03.931443
+ Loss = 0.00228529185989754
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 41 @ 2019-02-10 03:48:14.604189
+ Loss = 0.0062171816344238386
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 42 @ 2019-02-10 03:48:26.532491
+ Loss = 0.008277494008207011
+dev data size 1277
+Dev multi_sql acc total acc: 0.954581049334
+Epoch 43 @ 2019-02-10 03:48:36.168073
+ Loss = 0.013357083975580528
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 44 @ 2019-02-10 03:48:44.843581
+ Loss = 0.007483127140049378
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 45 @ 2019-02-10 03:48:53.428823
+ Loss = 0.012226453749724716
+dev data size 1277
+Dev multi_sql acc total acc: 0.956930305403
+Epoch 46 @ 2019-02-10 03:49:02.155720
+ Loss = 0.002162291547555755
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 47 @ 2019-02-10 03:49:10.831001
+ Loss = 0.0016865232289385373
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 48 @ 2019-02-10 03:49:19.646404
+ Loss = 0.0028710871338436896
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Epoch 49 @ 2019-02-10 03:49:28.268025
+ Loss = 0.008400904636384498
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 50 @ 2019-02-10 03:49:37.160034
+ Loss = 0.001874298443787124
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 51 @ 2019-02-10 03:49:47.462839
+ Loss = 0.0016286874660086973
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 52 @ 2019-02-10 03:49:56.103871
+ Loss = 0.0010392188687604817
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 53 @ 2019-02-10 03:50:04.759296
+ Loss = 0.005294959372368355
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 54 @ 2019-02-10 03:50:13.528524
+ Loss = 0.002220360911556936
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Epoch 55 @ 2019-02-10 03:50:24.698442
+ Loss = 0.002706813632747883
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 56 @ 2019-02-10 03:50:36.505152
+ Loss = 0.009063109705477313
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 57 @ 2019-02-10 03:50:45.947830
+ Loss = 0.003508323059299605
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 58 @ 2019-02-10 03:50:54.587616
+ Loss = 0.0028681639771846157
+dev data size 1277
+Dev multi_sql acc total acc: 0.955364134691
+Epoch 59 @ 2019-02-10 03:51:03.213847
+ Loss = 0.001693782723458693
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 60 @ 2019-02-10 03:51:11.885289
+ Loss = 0.0005320673161011802
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 61 @ 2019-02-10 03:51:20.583438
+ Loss = 0.0009523333233966852
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 62 @ 2019-02-10 03:51:29.344771
+ Loss = 0.014021115971782645
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 63 @ 2019-02-10 03:51:38.688051
+ Loss = 0.0038161987464248124
+dev data size 1277
+Dev multi_sql acc total acc: 0.954581049334
+Epoch 64 @ 2019-02-10 03:51:47.315785
+ Loss = 0.001219548287450604
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 65 @ 2019-02-10 03:51:56.059868
+ Loss = 0.00044569515250413825
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 66 @ 2019-02-10 03:52:04.725885
+ Loss = 0.0003107698174988559
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 67 @ 2019-02-10 03:52:13.372176
+ Loss = 0.00031934712162997025
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 68 @ 2019-02-10 03:52:22.092596
+ Loss = 0.0002432811308330052
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 69 @ 2019-02-10 03:52:30.769027
+ Loss = 0.0006426673239257111
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 70 @ 2019-02-10 03:52:39.483095
+ Loss = 0.009361336388403498
+dev data size 1277
+Dev multi_sql acc total acc: 0.950665622553
+Epoch 71 @ 2019-02-10 03:52:50.779417
+ Loss = 0.00622512165875643
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 72 @ 2019-02-10 03:53:02.751910
+ Loss = 0.002076527524143096
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 73 @ 2019-02-10 03:53:11.647848
+ Loss = 0.0005611027696502653
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 74 @ 2019-02-10 03:53:23.851529
+ Loss = 0.00019728061548492717
+dev data size 1277
+Dev multi_sql acc total acc: 0.956930305403
+Epoch 75 @ 2019-02-10 03:53:34.536416
+ Loss = 0.00016266419011498124
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 76 @ 2019-02-10 03:53:43.554681
+ Loss = 0.00018987243450801017
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 77 @ 2019-02-10 03:53:52.859549
+ Loss = 9.881943905422523e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 78 @ 2019-02-10 03:54:01.584563
+ Loss = 0.006553786932229884
+dev data size 1277
+Dev multi_sql acc total acc: 0.954581049334
+Epoch 79 @ 2019-02-10 03:54:10.190568
+ Loss = 0.008474729015934941
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 80 @ 2019-02-10 03:54:18.862082
+ Loss = 0.0005964260691069393
+dev data size 1277
+Dev multi_sql acc total acc: 0.965544244323
+Save model...
+Epoch 81 @ 2019-02-10 03:54:29.972737
+ Loss = 0.0004886834590268154
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 82 @ 2019-02-10 03:54:38.682633
+ Loss = 0.0002814417958735387
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 83 @ 2019-02-10 03:54:48.052399
+ Loss = 0.0040278551797386895
+dev data size 1277
+Dev multi_sql acc total acc: 0.956930305403
+Epoch 84 @ 2019-02-10 03:54:57.294866
+ Loss = 0.0012301632135498174
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 85 @ 2019-02-10 03:55:06.890256
+ Loss = 0.008291980022918248
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 86 @ 2019-02-10 03:55:16.481106
+ Loss = 0.004797102542826554
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 87 @ 2019-02-10 03:55:26.733259
+ Loss = 0.0035191935478314585
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 88 @ 2019-02-10 03:55:35.450323
+ Loss = 0.0006700178891972034
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 89 @ 2019-02-10 03:55:44.097105
+ Loss = 0.0025110996911383823
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 90 @ 2019-02-10 03:55:52.954853
+ Loss = 0.0015569104229713226
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 91 @ 2019-02-10 03:56:03.370560
+ Loss = 0.00028277365694690047
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 92 @ 2019-02-10 03:56:14.217375
+ Loss = 0.00011096647941363385
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 93 @ 2019-02-10 03:56:23.797445
+ Loss = 7.893067269118058e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 94 @ 2019-02-10 03:56:32.467465
+ Loss = 6.399667199235976e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 95 @ 2019-02-10 03:56:41.203198
+ Loss = 7.533290566430806e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 96 @ 2019-02-10 03:56:50.628068
+ Loss = 6.770511612110193e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 97 @ 2019-02-10 03:57:00.340418
+ Loss = 4.475204166488142e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 98 @ 2019-02-10 03:57:09.082379
+ Loss = 4.090438269540718e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 99 @ 2019-02-10 03:57:17.823766
+ Loss = 4.219020189582412e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 100 @ 2019-02-10 03:57:28.821718
+ Loss = 2.689618081308173e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 101 @ 2019-02-10 03:57:39.097004
+ Loss = 1.9215831226964143e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 102 @ 2019-02-10 03:57:49.578140
+ Loss = 2.4277611824220517e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 103 @ 2019-02-10 03:57:59.595990
+ Loss = 3.873030594895282e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 104 @ 2019-02-10 03:58:08.948736
+ Loss = 0.004289533845914176
+dev data size 1277
+Dev multi_sql acc total acc: 0.948316366484
+Epoch 105 @ 2019-02-10 03:58:17.667158
+ Loss = 0.012255491976515757
+dev data size 1277
+Dev multi_sql acc total acc: 0.956930305403
+Epoch 106 @ 2019-02-10 03:58:28.135773
+ Loss = 0.005148088610989439
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 107 @ 2019-02-10 03:58:37.142802
+ Loss = 0.00043141699147690595
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 108 @ 2019-02-10 03:58:45.782841
+ Loss = 0.00012896924894038249
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 109 @ 2019-02-10 03:58:56.129203
+ Loss = 0.0001252386725041492
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 110 @ 2019-02-10 03:59:04.822525
+ Loss = 8.141376978597075e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 111 @ 2019-02-10 03:59:14.623316
+ Loss = 6.322244915907869e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 112 @ 2019-02-10 03:59:23.300866
+ Loss = 4.892256025127464e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 113 @ 2019-02-10 03:59:34.178135
+ Loss = 5.122855813858545e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 114 @ 2019-02-10 03:59:44.133965
+ Loss = 3.745052546441577e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 115 @ 2019-02-10 03:59:52.867977
+ Loss = 2.920450146584721e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 116 @ 2019-02-10 04:00:01.547090
+ Loss = 3.3507649890471824e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 117 @ 2019-02-10 04:00:10.749050
+ Loss = 2.6480428259272053e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 118 @ 2019-02-10 04:00:20.506874
+ Loss = 2.315657129877441e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 119 @ 2019-02-10 04:00:30.284667
+ Loss = 3.155884143721363e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 120 @ 2019-02-10 04:00:38.937663
+ Loss = 2.384881463088576e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 121 @ 2019-02-10 04:00:47.590225
+ Loss = 3.074631167514903e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 122 @ 2019-02-10 04:00:56.458038
+ Loss = 2.2870659303089262e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 123 @ 2019-02-10 04:01:05.152214
+ Loss = 1.2987817684435857e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 124 @ 2019-02-10 04:01:14.278384
+ Loss = 1.2611717974076923e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 125 @ 2019-02-10 04:01:25.491434
+ Loss = 9.305058612573154e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 126 @ 2019-02-10 04:01:34.283764
+ Loss = 1.1629180685688445e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 127 @ 2019-02-10 04:01:43.105796
+ Loss = 1.255637085379101e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 128 @ 2019-02-10 04:01:51.918612
+ Loss = 9.508126415350804e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 129 @ 2019-02-10 04:02:00.982017
+ Loss = 1.1463072838483536e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 130 @ 2019-02-10 04:02:09.787339
+ Loss = 7.99671429803643e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 131 @ 2019-02-10 04:02:18.561660
+ Loss = 8.659305723674144e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 132 @ 2019-02-10 04:02:28.245401
+ Loss = 5.863714423165759e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 133 @ 2019-02-10 04:02:38.173505
+ Loss = 6.214484323904981e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 134 @ 2019-02-10 04:02:46.874985
+ Loss = 7.625217452653179e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 135 @ 2019-02-10 04:02:55.498939
+ Loss = 5.415729592740422e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 136 @ 2019-02-10 04:03:04.699255
+ Loss = 3.6428334379392187e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 137 @ 2019-02-10 04:03:13.389925
+ Loss = 0.017866472849927945
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Epoch 138 @ 2019-02-10 04:03:22.117298
+ Loss = 0.004969129013248798
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 139 @ 2019-02-10 04:03:30.877214
+ Loss = 0.001509358079996629
+dev data size 1277
+Dev multi_sql acc total acc: 0.956930305403
+Epoch 140 @ 2019-02-10 04:03:41.977125
+ Loss = 0.0007355177477672236
+dev data size 1277
+Dev multi_sql acc total acc: 0.955364134691
+Epoch 141 @ 2019-02-10 04:03:53.022071
+ Loss = 0.0025308448762016104
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 142 @ 2019-02-10 04:04:02.417850
+ Loss = 0.001469633332074124
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 143 @ 2019-02-10 04:04:12.283794
+ Loss = 0.00014744999809757574
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 144 @ 2019-02-10 04:04:21.159415
+ Loss = 6.109607002455064e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 145 @ 2019-02-10 04:04:32.997217
+ Loss = 5.559374762086982e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 146 @ 2019-02-10 04:04:42.819223
+ Loss = 4.140910709098955e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 147 @ 2019-02-10 04:04:51.435076
+ Loss = 3.4957428955763465e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 148 @ 2019-02-10 04:05:02.317906
+ Loss = 2.6644124994522976e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 149 @ 2019-02-10 04:05:10.982410
+ Loss = 0.00011368936071888434
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 150 @ 2019-02-10 04:05:19.877549
+ Loss = 4.711542791609672e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 151 @ 2019-02-10 04:05:29.211232
+ Loss = 2.0725015988481412e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 152 @ 2019-02-10 04:05:40.472496
+ Loss = 0.004318016047432603
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 153 @ 2019-02-10 04:05:49.175077
+ Loss = 0.012980000236992499
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 154 @ 2019-02-10 04:05:58.039168
+ Loss = 0.002407532110039849
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 155 @ 2019-02-10 04:06:06.673434
+ Loss = 0.00027405308490913627
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 156 @ 2019-02-10 04:06:16.930610
+ Loss = 0.0001039952243941684
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 157 @ 2019-02-10 04:06:27.978881
+ Loss = 7.683515531075797e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 158 @ 2019-02-10 04:06:36.862928
+ Loss = 7.642797723688926e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 159 @ 2019-02-10 04:06:47.187282
+ Loss = 6.478592512294041e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 160 @ 2019-02-10 04:06:56.747928
+ Loss = 6.057173907125514e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 161 @ 2019-02-10 04:07:05.445578
+ Loss = 3.422227139704833e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 162 @ 2019-02-10 04:07:16.531965
+ Loss = 2.5089894377286654e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 163 @ 2019-02-10 04:07:25.203562
+ Loss = 2.4690955494274057e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 164 @ 2019-02-10 04:07:34.206791
+ Loss = 2.1552722433955865e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 165 @ 2019-02-10 04:07:42.877099
+ Loss = 2.1494670945399064e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 166 @ 2019-02-10 04:07:51.890831
+ Loss = 2.017382833278048e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 167 @ 2019-02-10 04:08:00.603402
+ Loss = 1.5725613241969086e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 168 @ 2019-02-10 04:08:09.297294
+ Loss = 1.4463540450268358e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 169 @ 2019-02-10 04:08:18.410083
+ Loss = 1.574017603751989e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 170 @ 2019-02-10 04:08:29.100182
+ Loss = 1.3281769927888562e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 171 @ 2019-02-10 04:08:37.761192
+ Loss = 1.025294819851889e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 172 @ 2019-02-10 04:08:46.371296
+ Loss = 9.213705980317119e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 173 @ 2019-02-10 04:08:56.190966
+ Loss = 1.5354049705931837e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 174 @ 2019-02-10 04:09:04.877004
+ Loss = 7.57010815679217e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 175 @ 2019-02-10 04:09:13.547438
+ Loss = 7.175031953838583e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 176 @ 2019-02-10 04:09:22.536085
+ Loss = 1.3261717256250291e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 177 @ 2019-02-10 04:09:32.964514
+ Loss = 4.09167570552038e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 178 @ 2019-02-10 04:09:45.912620
+ Loss = 0.015355294267367764
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 179 @ 2019-02-10 04:09:58.482270
+ Loss = 0.008122745093757175
+dev data size 1277
+Dev multi_sql acc total acc: 0.953797963978
+Epoch 180 @ 2019-02-10 04:10:08.009591
+ Loss = 0.0015491488913637955
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 181 @ 2019-02-10 04:10:18.124578
+ Loss = 0.0005381812706342515
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 182 @ 2019-02-10 04:10:29.025311
+ Loss = 0.00016131594005683956
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 183 @ 2019-02-10 04:10:38.105372
+ Loss = 0.0001232925533197473
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 184 @ 2019-02-10 04:10:47.093032
+ Loss = 8.092596233369003e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 185 @ 2019-02-10 04:10:57.110418
+ Loss = 6.161255879664206e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 186 @ 2019-02-10 04:11:06.213069
+ Loss = 4.2554224209219495e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 187 @ 2019-02-10 04:11:14.931203
+ Loss = 3.7936552210850936e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 188 @ 2019-02-10 04:11:23.641741
+ Loss = 2.8175224195948512e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 189 @ 2019-02-10 04:11:32.433697
+ Loss = 2.542181655528458e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 190 @ 2019-02-10 04:11:41.348039
+ Loss = 2.5908818164159147e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 191 @ 2019-02-10 04:11:50.694329
+ Loss = 2.199454511898704e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 192 @ 2019-02-10 04:12:00.457602
+ Loss = 1.6943921371856334e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 193 @ 2019-02-10 04:12:12.913679
+ Loss = 1.4065594703810536e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 194 @ 2019-02-10 04:12:22.629550
+ Loss = 1.6530137038034663e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 195 @ 2019-02-10 04:12:31.300329
+ Loss = 9.727842110481074e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 196 @ 2019-02-10 04:12:40.083402
+ Loss = 1.2162176227981604e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 197 @ 2019-02-10 04:12:48.773340
+ Loss = 9.774409984159423e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 198 @ 2019-02-10 04:12:57.801062
+ Loss = 7.744513382917924e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 199 @ 2019-02-10 04:13:06.480791
+ Loss = 8.196635417798994e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 200 @ 2019-02-10 04:13:17.182807
+ Loss = 4.920746216018771e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 201 @ 2019-02-10 04:13:27.555402
+ Loss = 6.852528062033654e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 202 @ 2019-02-10 04:13:36.249360
+ Loss = 5.35472683047258e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 203 @ 2019-02-10 04:13:45.618789
+ Loss = 4.347723612492631e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 204 @ 2019-02-10 04:13:54.300149
+ Loss = 3.908680399770671e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 205 @ 2019-02-10 04:14:06.058100
+ Loss = 3.5579400779197027e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 206 @ 2019-02-10 04:14:16.776254
+ Loss = 7.910980967438863e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.959279561472
+Epoch 207 @ 2019-02-10 04:14:27.121840
+ Loss = 5.255966501865273e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 208 @ 2019-02-10 04:14:38.117590
+ Loss = 2.3380471946620572e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 209 @ 2019-02-10 04:14:46.778525
+ Loss = 2.6880248512728394e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 210 @ 2019-02-10 04:14:55.625982
+ Loss = 3.2961287593097616e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 211 @ 2019-02-10 04:15:07.843048
+ Loss = 2.8083656183465844e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 212 @ 2019-02-10 04:15:21.770971
+ Loss = 2.2488943038969744e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 213 @ 2019-02-10 04:15:32.662908
+ Loss = 2.1205672319627375e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 214 @ 2019-02-10 04:15:41.506363
+ Loss = 1.6268762020492572e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 215 @ 2019-02-10 04:15:50.622640
+ Loss = 9.862344844103006e-07
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 216 @ 2019-02-10 04:15:59.390430
+ Loss = 4.019381620458316e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.95771339076
+Epoch 217 @ 2019-02-10 04:16:08.474355
+ Loss = 0.016035729242793336
+dev data size 1277
+Dev multi_sql acc total acc: 0.958496476116
+Epoch 218 @ 2019-02-10 04:16:17.116179
+ Loss = 0.0026693392838978767
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 219 @ 2019-02-10 04:16:25.822288
+ Loss = 0.0005156147355673227
+dev data size 1277
+Dev multi_sql acc total acc: 0.960062646829
+Epoch 220 @ 2019-02-10 04:16:34.766820
+ Loss = 0.00023734752524795944
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 221 @ 2019-02-10 04:16:43.916560
+ Loss = 9.924394773112883e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 222 @ 2019-02-10 04:16:52.851980
+ Loss = 7.104063841101277e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 223 @ 2019-02-10 04:17:02.484115
+ Loss = 4.675907426886344e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 224 @ 2019-02-10 04:17:11.344801
+ Loss = 4.5705985892798874e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 225 @ 2019-02-10 04:17:19.974892
+ Loss = 3.222904328599182e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 226 @ 2019-02-10 04:17:29.280170
+ Loss = 2.4057377331944682e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.964761158966
+Epoch 227 @ 2019-02-10 04:17:38.330355
+ Loss = 1.689075279088285e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.964761158966
+Epoch 228 @ 2019-02-10 04:17:48.384530
+ Loss = 1.3425284345839036e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 229 @ 2019-02-10 04:17:57.953163
+ Loss = 1.0097029406062031e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 230 @ 2019-02-10 04:18:08.120929
+ Loss = 1.958681032074959e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 231 @ 2019-02-10 04:18:17.012946
+ Loss = 1.5985442289695625e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 232 @ 2019-02-10 04:18:25.765294
+ Loss = 1.3138801881275494e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 233 @ 2019-02-10 04:18:34.776463
+ Loss = 9.11548573883525e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 234 @ 2019-02-10 04:18:44.331690
+ Loss = 6.338410778900603e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 235 @ 2019-02-10 04:18:53.025679
+ Loss = 7.5278358293195665e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 236 @ 2019-02-10 04:19:01.767107
+ Loss = 4.289973668676499e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 237 @ 2019-02-10 04:19:10.667182
+ Loss = 4.580251707458173e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 238 @ 2019-02-10 04:19:19.407678
+ Loss = 4.2842709104493285e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 239 @ 2019-02-10 04:19:29.676520
+ Loss = 6.331704268354563e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 240 @ 2019-02-10 04:19:38.899844
+ Loss = 3.3013387210612263e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 241 @ 2019-02-10 04:19:49.274093
+ Loss = 4.607118580398344e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.965544244323
+Epoch 242 @ 2019-02-10 04:19:58.266022
+ Loss = 4.7437848057064145e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 243 @ 2019-02-10 04:20:07.939414
+ Loss = 2.7861461498994244e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 244 @ 2019-02-10 04:20:21.192497
+ Loss = 2.637261227089022e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 245 @ 2019-02-10 04:20:33.312477
+ Loss = 3.0649764859227586e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 246 @ 2019-02-10 04:20:42.441368
+ Loss = 2.509938245756967e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 247 @ 2019-02-10 04:20:51.391056
+ Loss = 2.341919764482098e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 248 @ 2019-02-10 04:21:02.693059
+ Loss = 1.9273229448020186e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 249 @ 2019-02-10 04:21:14.023449
+ Loss = 1.4226433083049273e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 250 @ 2019-02-10 04:21:23.160208
+ Loss = 1.5627037882549705e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 251 @ 2019-02-10 04:21:32.794745
+ Loss = 1.7326069007085816e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 252 @ 2019-02-10 04:21:43.027485
+ Loss = 1.7087125564462592e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 253 @ 2019-02-10 04:21:53.673083
+ Loss = 1.2159984120208597e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 254 @ 2019-02-10 04:22:02.696003
+ Loss = 1.3165721756351394e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 255 @ 2019-02-10 04:22:13.442220
+ Loss = 1.2370560395551158e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 256 @ 2019-02-10 04:22:22.094967
+ Loss = 2.6261766212582194e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 257 @ 2019-02-10 04:22:30.717522
+ Loss = 0.013938158307135537
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 258 @ 2019-02-10 04:22:39.834185
+ Loss = 0.0034552397911548714
+dev data size 1277
+Dev multi_sql acc total acc: 0.956147220047
+Epoch 259 @ 2019-02-10 04:22:48.593283
+ Loss = 0.0016369592434633535
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 260 @ 2019-02-10 04:23:01.709541
+ Loss = 0.0012616034908974865
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 261 @ 2019-02-10 04:23:10.579329
+ Loss = 0.0014807496471855777
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 262 @ 2019-02-10 04:23:19.554196
+ Loss = 0.00011798076544274974
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 263 @ 2019-02-10 04:23:29.088356
+ Loss = 4.786932071381326e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 264 @ 2019-02-10 04:23:37.964602
+ Loss = 3.654154826095303e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 265 @ 2019-02-10 04:23:46.635799
+ Loss = 3.382250811805918e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.964761158966
+Epoch 266 @ 2019-02-10 04:23:55.276479
+ Loss = 2.1848645853206428e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 267 @ 2019-02-10 04:24:04.412582
+ Loss = 1.6153861776761723e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 268 @ 2019-02-10 04:24:13.605798
+ Loss = 2.0639346439514873e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 269 @ 2019-02-10 04:24:26.069244
+ Loss = 1.5947695804780697e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 270 @ 2019-02-10 04:24:35.590781
+ Loss = 1.2882606154112694e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 271 @ 2019-02-10 04:24:44.477900
+ Loss = 1.1435071823269964e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 272 @ 2019-02-10 04:24:56.357597
+ Loss = 9.56388195998338e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 273 @ 2019-02-10 04:25:05.572598
+ Loss = 8.873265785014345e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 274 @ 2019-02-10 04:25:15.604141
+ Loss = 7.709344133008672e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 275 @ 2019-02-10 04:25:24.412686
+ Loss = 1.0375371903674221e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 276 @ 2019-02-10 04:25:33.873384
+ Loss = 1.269210034374184e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 277 @ 2019-02-10 04:25:43.070305
+ Loss = 1.5455622526970833e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 278 @ 2019-02-10 04:25:52.621647
+ Loss = 1.0054882392542383e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 279 @ 2019-02-10 04:26:01.273705
+ Loss = 5.254758243026717e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.961628817541
+Epoch 280 @ 2019-02-10 04:26:10.086905
+ Loss = 0.0005295503439920235
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 281 @ 2019-02-10 04:26:19.858413
+ Loss = 0.007197547152211056
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 282 @ 2019-02-10 04:26:28.662305
+ Loss = 0.0017664845662769726
+dev data size 1277
+Dev multi_sql acc total acc: 0.967893500392
+Save model...
+Epoch 283 @ 2019-02-10 04:26:38.437715
+ Loss = 0.000808848063579313
+dev data size 1277
+Dev multi_sql acc total acc: 0.965544244323
+Epoch 284 @ 2019-02-10 04:26:47.880746
+ Loss = 8.025849874090891e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 285 @ 2019-02-10 04:26:57.264004
+ Loss = 4.45614037517245e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 286 @ 2019-02-10 04:27:06.533267
+ Loss = 2.6762147842356042e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 287 @ 2019-02-10 04:27:15.278455
+ Loss = 3.446105721603435e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.963194988254
+Epoch 288 @ 2019-02-10 04:27:24.066216
+ Loss = 2.94695809174227e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 289 @ 2019-02-10 04:27:32.766588
+ Loss = 1.556935250917754e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 290 @ 2019-02-10 04:27:42.054846
+ Loss = 1.887173920785518e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 291 @ 2019-02-10 04:27:52.681107
+ Loss = 1.8074344728416755e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.964761158966
+Epoch 292 @ 2019-02-10 04:28:01.320757
+ Loss = 1.1380516510481181e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 293 @ 2019-02-10 04:28:10.056721
+ Loss = 1.1608408367250297e-05
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 294 @ 2019-02-10 04:28:19.625440
+ Loss = 7.4315979841877444e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 295 @ 2019-02-10 04:28:31.113933
+ Loss = 9.46920840543591e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 296 @ 2019-02-10 04:28:40.385316
+ Loss = 7.1524285903353175e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.962411902897
+Epoch 297 @ 2019-02-10 04:28:49.027248
+ Loss = 9.483538591752276e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.96397807361
+Epoch 298 @ 2019-02-10 04:28:57.851278
+ Loss = 8.863094531622462e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 299 @ 2019-02-10 04:29:09.531964
+ Loss = 7.3905013039500245e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
+Epoch 300 @ 2019-02-10 04:29:22.296040
+ Loss = 4.7562540927663865e-06
+dev data size 1277
+Dev multi_sql acc total acc: 0.960845732185
