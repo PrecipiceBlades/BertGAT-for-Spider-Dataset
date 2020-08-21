@@ -7,6 +7,4 @@ to pre-train deep bidirectional representations instead of the traditional Bidir
 neural networks. Fine-tuning is applied to the pre-trained BERT representations so that we can
 use just one extra output layer to create state-of-the-art models for wide-ranging text-to-SQL tasks.
 We use Syntax tree network to employ a treebased SQL generator, and use Graph Attention
-networks (GATs) to learn the features of syntax-tree. As far as we know,
-we are the first to use graph information via implementing BertGAT to compare the syntax dependency
-tree of questions and its corresponding SQL syntax tree to deal with text-to-SQL tasks.
+networks (GATs) to learn the features of syntax-tree.
